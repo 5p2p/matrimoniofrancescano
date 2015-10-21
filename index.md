@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: landing
+title: Il Matrimonio Francescano
 ---
 
 {% for post in site.posts %}
