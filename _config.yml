@@ -1,3 +1,25 @@
+# ---------------------------------------------------------
+# Blog infos
+# ---------------------------------------------------------
+description: Questo è il sito del matrimonio francescano
+metadata: matrimonio, cristiano, amore
+url: http://matrimoniofrancescano.it
+
+# ---------------------------------------------------------
+# Blog basic design
+# ---------------------------------------------------------
+logo:    images/favicon/logo-128.jpg
+favicon: images/favicon/logo-128.jpg
+header:  images/header/header.png
+
+# ---------------------------------------------------------
+# Accounts
+# ---------------------------------------------------------
+# google_analytics: 87364
+
+# ---------------------------------------------------------
+# Jekyll stuff
+# ---------------------------------------------------------
 markdown: kramdown
 timezone: Europe/Rome
 future: false

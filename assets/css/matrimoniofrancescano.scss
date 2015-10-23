@@ -1,0 +1,299 @@
+---
+# Sass definitions
+---
+
+///////////////////////////////////////////////////
+
+// <!--Colours-->
+$Main:                    #d45603;  // hover color and highlight
+$Text:                    #1a3b3c;
+$Tint:                    #1a3b3c;
+$Header:                  #d45603;
+$Header_Background:       #54aeb4; // #333333;
+$Description_Text:        #cccccc;
+$Description_Background:  #80CFD3;
+
+// <!--Sizing-->
+$Column_Size:             600px;
+$Header_height:           55px;
+
+// <!--Fonts-->
+$Headings:                "Calluna Sans";
+$Subheadings:             "Calluna Sans";
+$Body:                    "Calluna";
+$Fancy:                   "Clarendon"; // quotes
+
+///////////////////////////////////////////////////
+
+// /*-------------*/
+// /*---OPTIONS---*/
+// /*-------------*/
+
+.archivio {
+    display: none;
+}
+
+/*--Column Width--*/
+.postHead {
+    max-width: $Column_Size;
+}
+
+.row {
+    max-width: $Column_Size;
+}
+
+// Header for the landing page
+#header_landing {
+    background-color: $Header_Background;
+}
+
+// Normal header
+#header {
+    background-color: #fff;
+}
+
+.header p {
+    color: $Header;
+    opacity: .6;
+}
+
+.header ul li {
+    color: $Header;
+    opacity: .6;
+}
+
+#headerTint {
+    background: $Tint;
+}
+
+#bigTitle {
+    color: $Header;
+}
+
+// Highlight Options
+::selection {
+    opacity: 1;
+    color: #fff;
+    background-color: $Main;
+}
+
+:-moz-selection {
+    opacity: 1;
+    color: #fff;
+    background-color: $Main;
+}
+
+// Link Hover
+a:hover {
+    color: $Main;
+}
+
+.header #title:hover {
+    color: $Main;
+}
+
+.menuIcon:hover {
+    color: $Main;
+}
+
+.sb-slidebar ul li a:hover {
+    color: $Main;
+}
+
+#bottomLinks a:hover {
+    color: $Main;
+}
+
+// Fonts
+h1,h2,h3,h4,h5,h6 {
+    font-family: $Headings !important;
+}
+
+body,ol.notes li.note blockquote a,.postAuthor,.postStats,ol.notes li {
+    font-family: $Subheadings !important;
+}
+
+.quote,.pDropCap,pQuote {
+    font-family: $Fancy !important;
+}
+
+.post p,.chat li,blockquote,#recentSummary,.source {
+    font-family: $Body;
+}
+
+// {
+    block: IfHeaderOn;
+}
+
+.header ul,.header p {
+    display: block;
+}
+
+.header h1 {
+    display: block;
+}
+
+.backButtonContainer {
+    display: none !important;
+}
+
+.backButton {
+    display: none;
+}
+
+#header {
+    background-color: $Header_Background;
+}
+
+// {block:PermalinkPage}
+//   <style>
+//   /*--STYLE FOR PERMALINK PAGE ONLY--*/
+//     /*HEADER*/
+//     .header ul, .header p{display:none;}
+//     .header h1{display:none;}
+//     .backButtonContainer{margin-top:20px;}
+//     .backButton{display:initial;}
+
+//     /*HIDE*/
+//     .hideOnPermalink{display:none !important;}
+//     .hideOnIndex{display:block;}
+
+//     #title, #recentTitle{font-size:2.618rem; line-height:3.141rem;}
+
+//     /*TYPOGRAPHY*/
+//     /* first paragraph larger */
+//     .post > p:first-of-type{font-size:1.25rem; line-height:2.022rem;} /*1.2 & 1.618*/
+
+//   /*LARGER THAN 900PX*/
+//     @media only screen and (min-width: 900px)
+//     {
+//       #title, #recentTitle{font-size:3.272rem; line-height:3.926rem;}
+
+//       /* first paragraph larger*/
+//       .post > p:first-of-type{font-size:1.5rem; line-height:2.427rem;} /*1.2 & 1.618*/
+//     }
+//   /*END LARGER THAN 900PX*/
+
+//   #headerBackground{display:none;}
+//   </style>
+// {/block:PermalinkPage}
+
+
+
+.post p a,.post li a {
+    color: $Main;
+    border-bottom: 1px dashed $Main;
+}
+
+.post p a:hover,.post li a:hover {
+    color: $Text;
+    border-bottom: 1px dashed $Header_Background;
+}
+
+.post h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+/*letter-spacing: -0.02rem;*/
+    border-bottom: 1px solid;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1.4rem;
+}
+
+blockquote {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+blockquote {
+    font-family: Georgia,serif;
+    font-size: 1.35rem;
+    font-style: italic;
+/*width: 500px;*/
+    margin: .25rem 2rem;
+    padding: .25rem 2rem;
+    line-height: 1.6;
+    position: relative;
+    color: #383838;
+}
+
+blockquote:before {
+    display: block;
+    content: "\201C";
+    font-size: 6rem;
+    position: absolute;
+    left: -1.5rem;
+    top: -2.5rem;
+    color: #7a7a7a;
+}
+
+blockquote cite {
+    text-align: right;
+    color: #999;
+    font-size: 1.2rem;
+    display: block;
+    margin-top: .5rem;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+// RESPONSIVE BIG SCREENS (mobile first)
+@media all and (min-width: 900px) {
+  blockquote {
+      padding: .25rem 4rem;
+  }
+
+  blockquote:before {
+      left: 0;
+      top: -2rem;
+  }
+
+  .post h3 {
+      font-size: 1.4rem;
+      line-height: 2rem;
+  }
+}
+
+
+// {block:IfFadeOn}
+//         #headerBackground{display:block;}
+//         #headerTint{
+//     background: linear-gradient(to top,
+//         rgba(255,255,255,1) 0%,
+//         rgba(255,255,255,0.95) 10%,
+//         rgba(255,255,255,0.75) 30%,
+//         rgba(255,255,255,0) 100%);
+//         opacity:1;}
+// {/block:IfFadeOn}
+
+// {block:IfHeaderBackgroundImage}
+// <style>
+//     #headerBackground{
+//         background:url('{image:HeaderBackground}');
+//         background-size: cover;}
+//     #header{background-color:inherit;}
+// </style>
+// {/block:IfHeaderBackgroundImage}
+
+
+// {block:IndexPage}
+// {block:IfFullHeight}
+// <style>
+//     .header, #headerBackground, #headerTint{height:100vh;}
+//     #bigTitle{margin-top:30vh;}
+// </style>
+// {/block:IfFullHeight}
+// {/block:IndexPage}
+
+// {block:IfFullImages}
+// <style>
+//     img{width:100%;}
+//     .postAuthorImage{width:inherit;}
+//     img.avatar {width:inherit;}
+//     #instafeed img{width:initial;}
+// </style>
+// {/block:IfFullImages}

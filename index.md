@@ -3,29 +3,10 @@ layout: landing
 title: Il Matrimonio Francescano
 ---
 
-{% for post in site.posts %}
+## Che cos'è?
 
-### [{{post.title}}]({{post.url}})
+### Arrivato ad Assisi la bellezza e la semplicità di Francesco e Chiara ti hanno rapito. Hai sentito parlare di un modo nuovo per celebrare il tuo matrimonio, una modalità fuori-schema che va al centro del sacramento, che ne esalta la vocazione e che trasmette la forza e l'essenza dell'amore. È questo che cerchi?
 
-{% endfor %}
-
----
-
-{% for page in site.pages %}
-<!--  if page.path contains 'preview/' -->
-{% if page.preview %}
-
-### [{{page.title}}]({{page.url}})
-{{page.path}}
-
-{% endif %}
-{% endfor %}
-
----
-
-{% for page in site.pages %}
-
-### [{{page.title}}]({{page.url}})
-{{page.path}}
-
-{% endfor %}
+<div class="spaceSmall"></div>
+<a href="/matrimoniofrancescano" class="readMoreButton h3_size">{lang:Read more} <i class="fa fa-long-arrow-right"></i></a>
+  <div class="spaceSmall"></div>
