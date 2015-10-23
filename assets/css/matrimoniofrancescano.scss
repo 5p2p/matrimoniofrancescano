@@ -16,18 +16,21 @@ $Description_Background:  #80CFD3;
 // <!--Sizing-->
 $Column_Size:             600px;
 $Header_height:           55px;
+$Max_height:              600px;
 
 // <!--Fonts-->
-$Headings:                "Calluna Sans";
-$Subheadings:             "Calluna Sans";
-$Body:                    "Calluna";
+// $Headings:                "calluna-sans",sans-serif;
+$Subheadings:             "calluna-sans";
+$Body:                    "calluna";
 $Fancy:                   "Clarendon"; // quotes
+.font_black{
+  font-family: "calluna-sans",sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
 
 ///////////////////////////////////////////////////
 
-// /*-------------*/
-// /*---OPTIONS---*/
-// /*-------------*/
 
 .archivio {
     display: none;
@@ -39,7 +42,8 @@ $Fancy:                   "Clarendon"; // quotes
 }
 
 .row {
-    max-width: $Column_Size;
+  padding: 0 1.4rem;
+  max-width: $Column_Size;
 }
 
 // Header for the landing page
@@ -51,6 +55,22 @@ $Fancy:                   "Clarendon"; // quotes
 #header {
     background-color: #fff;
 }
+
+#header_image {
+  padding: 1rem 0;
+    margin: 0 auto;
+/*padding-top: 55px;*/
+/*margin-top: -55px;*/
+    background: $Header_Background;
+    max-width: 700px;
+/*padding-top: 2rem;*/
+/*border-top: 2px solid #80CFD3;*/
+  img {
+    height: auto;
+    max-height: $Max_height;
+  }
+}
+
 
 .header p {
     color: $Header;
@@ -106,11 +126,13 @@ a:hover {
 
 // Fonts
 h1,h2,h3,h4,h5,h6 {
-    font-family: $Headings !important;
+  @extend .font_black;
+    // font-family: $Headings !important;
 }
 
 body,ol.notes li.note blockquote a,.postAuthor,.postStats,ol.notes li {
-    font-family: $Subheadings !important;
+  @extend .font_black;
+    // font-family: $Subheadings !important;
 }
 
 .quote,.pDropCap,pQuote {
@@ -119,10 +141,6 @@ body,ol.notes li.note blockquote a,.postAuthor,.postStats,ol.notes li {
 
 .post p,.chat li,blockquote,#recentSummary,.source {
     font-family: $Body;
-}
-
-// {
-    block: IfHeaderOn;
 }
 
 .header ul,.header p {
@@ -297,3 +315,157 @@ blockquote cite:before {
 //     #instafeed img{width:initial;}
 // </style>
 // {/block:IfFullImages}
+
+// =====================================================================
+// RUVIDO --------------------------------------------------------------
+
+body {
+    color: $Main;
+}
+
+.padding_header_height {
+    padding-top: 55px;
+}
+
+#BlogName {
+/*padding-bottom: 2.4rem;*/
+/*font-size:3.272rem; line-height:3.926rem;*/
+/*font-size:2.427rem; line-height:2.912rem;*/
+/*font-size:2.827rem; line-height:3.534rem;*/
+}
+
+#header_image {
+    margin: 0 auto;
+/*padding-top: 55px;*/
+/*margin-top: -55px;*/
+    background: #54aeb4;
+    max-width: 700px;
+/*padding-top: 2rem;*/
+/*border-top: 2px solid #80CFD3;*/
+}
+
+.whitebg {
+    background: #fff;
+}
+
+.headerbg {
+    background: #54aeb4;
+}
+
+.headerbg.whitebg {
+    background: #fff;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #1a3b3c;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: initial;
+}
+
+.tophr {
+    max-width: 700px;
+    border-top: 2px solid #54aeb4;
+    padding-top: 1.2rem;
+    margin: 0 auto;
+/*margin-top:4.8rem;*/
+}
+
+.description {
+    text-align: left;
+    background: #FFF;
+    color: #1a3b3c;
+    border-radius: 50px;
+    h2 {
+      // font-size: 1.5rem; line-height: 2.427rem;
+      font-size:2.023rem; line-height:3.273rem;
+    }
+    h3 {
+      font-size: 1.25rem; line-height: 2.202rem;
+      font-family: 'Calluna',serif;
+      font-style: italic;
+      font-weight: 100;
+    }
+}
+
+.h2_size {
+/*font-size:1.25rem; line-height:2.202rem;*/
+    font-size: 1.5rem; line-height: 2.427rem;
+/*font-size:2.023rem; line-height:3.273rem;*/
+}
+
+.h3_size {
+    font-size: 1.25rem; line-height: 2.202rem;
+/*font-size:1.5rem; line-height:2.427rem;*/
+/*font-size:2.023rem; line-height:3.273rem;*/
+}
+
+.header_tag {
+    text-align: left;
+}
+
+.content_header {
+    font-size: 1.5rem;
+    line-height: 2.427rem;
+    font-weight: 900;
+/*border-bottom: 2px solid #80CFD3; */
+    text-align: center;
+}
+
+.menu_item,.menu_item_landing {
+  @extend .font_black;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 1.2rem;
+
+  a {
+    color: $Text;
+  }
+  a:hover {
+    color: $Main;
+  }
+}
+
+.withlove {
+    color: #FFA48F;
+}
+
+.roundImage {
+    border-radius: 50%;
+}
+
+h1.title {
+    margin-top: 2.912rem;
+    font-size: 1.5rem;
+    line-height: 2.427rem;
+    margin-top: 1.2rem;
+}
+
+h1.title:before {
+    content: '\2022';
+    color: #54aeb4;
+    font-size: 2rem;
+    margin-right: .6rem;
+}
+
+.bmargin {
+    margin: 0 0 2rem;
+    margin: 0;
+}
+
+p.a {
+    color: red;
+}
+
+.readMoreButton {
+  margin: 1rem 0 2rem 0;
+}
+
+.bottom {
+  padding: 0 0 2rem 0;
+}

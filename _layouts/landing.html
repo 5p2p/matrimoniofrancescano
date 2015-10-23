@@ -31,52 +31,6 @@
     <link href="assets/css/matrimoniofrancescano.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-
-    <style>
-
-    /*--Header--*/
-    {block:IndexPage}
-    #header{background-color:{color:Header Background Color};}
-    .header, #headerBackground, #headerTint{height:100vh;}
-    #bigTitle{margin-top:30vh;}
-
-    {/block:IndexPage}
-
-    {block:TagPage}
-    #header{background-color:#ffffff;}
-    {/block:TagPage}
- 
-    {block:PermalinkPage}
-    /*--STYLE FOR PERMALINK PAGE ONLY--*/
-    /*HEADER*/
-    .header ul, .header p{display:none;}
-    .header h1{display:none;}
-    .backButtonContainer{margin-top:20px;}
-    .backButton{display:initial;}
-
-    /*HIDE*/
-    .hideOnPermalink{display:none !important;}
-    .hideOnIndex{display:block;}
-
-    #title, #recentTitle{font-size:2.618rem; line-height:3.141rem;}
-
-    /*TYPOGRAPHY*/
-    /* first paragraph larger */
-    .post > p:first-of-type{font-size:1.25rem; line-height:2.022rem;} /*1.2 & 1.618*/
-
-    /*LARGER THAN 900PX*/
-    @media only screen and (min-width: 900px) {
-        #title, #recentTitle{font-size:3.272rem; line-height:3.926rem;}
-
-        /* first paragraph larger*/
-        .post > p:first-of-type{font-size:1.5rem; line-height:2.427rem;} /*1.2 & 1.618*/
-    }
-
-    #headerBackground{display:none;}
-    {/block:PermalinkPage}
-
-    </style>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="assets/js/script.min.js" type="text/javascript"></script>
 
@@ -92,7 +46,6 @@
     {% endif %}
 
 
-
 <!-- This script makes the header more compact on smaller screens -->
     <script>
     $(document).ready(function () {
@@ -103,44 +56,63 @@
     });
     </script>
 
+<!-- Typekit fonts -->
+    <script src="https://use.typekit.net/pvw8gvu.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 </head>
+
 
 <!-- <body onload="prettyPrint()" tabindex="0" onkeydown="keyPress(event)" class="{block:TagPage}padding_header_height {/block:TagPage} {block:PermalinkPage}padding_header_height{/block:PermalinkPage}"> -->
 
 <body>
     <div id="sb-site">
         <!--main content for animation-->
+<!--         
         <header id="header_top">
             <div id="header_logo">
                 &nbsp;<a href="/"><img src="{{site.logo}}"></a>
             </div>
             <nav id="header_nav">
-                {% for page in site.data.menu %} <a class="header_nav_item"
-                href="{{page.href}}">{{page.title}}</a> {% endfor %}
+                {% for page in site.data.menu %} 
+                    <a class="header_nav_item" href="{{page.href}}">
+                    {{page.title}}
+                    </a>
+                {% endfor %}
             </nav>
         </header>
+ --> 
+
         <div class="header fullRow whitebg" id="header_landing">
-            <div class="spaceSmall hideOnSplash"></div><!--space at top-->
-            <div id="header_image"><img src="{{site.header}}"></div>
-            <div class="spaceSmall"></div>
-            <h1 id="BlogName">{{ page.title }}</h1><!--MENU-->
+
+            <div id="header_image">
+                <img src="{{site.header}}">
+            </div>
+            
+            <!-- <div class="spaceSmall"></div> -->
+            <h1 id="BlogName">{{ page.title }}</h1>
+
             <ul style="padding-bottom: 1rem">
-                <li style="list-style: none">{% for page in site.data.menu
-                %}</li>
+                <li style="list-style: none">
+                {% for page in site.data.menu %}</li>
                 <li class="menu_item">
                     <!--<li class="">-->
-                    <a href="{URL}">{Label}</a>
+                    <a href="{{page.href}}">{{page.title}}</a>
                 </li>
-                <li style="list-style: none">{% endfor %}</li>
+                {% endfor %}
             </ul><!-- <div class="spaceSmall"></div> -->
         </div>
+
         <section class="row description">
-            <div class="spaceSmallSmall"></div>
+            <!-- <div class="spaceSmallSmall"></div> -->
             <div class="row">
+
+
                 {{ content }}
+            
+
             </div>
         </section>
-        <div class="spaceSmall"></div>
         <div class="postBottom hideOnPrint tophr">
             <!--hide on index, show on permalink-->
             <h3><a href="{{site.url}}">Il Matrimonio Francescano</a></h3>
@@ -149,7 +121,8 @@
             <!--Links-->
             <div id="bottomLinks">
                 {% for page in site.data.menu_footer %} <a href=
-                "{{page.href}}">{{page.title}}</a> {% endfor %}
+                "{{page.href}}">{{page.title}}</a> 
+                {% endfor %}
             </div><!--Blurb-->
             <div id="bottomBlurb">
                 <p class="powered">Crafted with <i class=
@@ -157,10 +130,10 @@
                 "http://5p2p.it">5pani2pesci</a></p>
             </div>
         </div>
-        <div class="spaceSmall"></div><!--++++++++++-->
-        <!--END FOOTER-->
-        <!--++++++++++-->
-    </div><!--main window to animate-->
+        <!-- <div class="spaceSmall"></div> -->
+    </div>
+
+
     <!--KEYBOARD NAV ON INDEX-->
     <script>
       //RANDOM NAVIGATION FOR INDEX
