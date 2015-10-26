@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Il matrimonio francescano
+author: ruvido
 <!-- image: ok -->
 <!-- preview: ok -->
 publish: ok
