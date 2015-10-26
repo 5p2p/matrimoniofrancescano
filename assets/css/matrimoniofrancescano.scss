@@ -36,8 +36,8 @@ $Fancy:                   "Clarendon"; // quotes
 }
 
 // Typography
-$scale   : 1.2;
-$pg_size : 1.0;
+$scale   : 1.25;
+$pg_size : 1.0rem;
 $sm_size : $pg_size/$scale;
 $h4_size : $pg_size*$scale;
 $h3_size : $h4_size*$scale;
@@ -45,19 +45,19 @@ $h2_size : $h3_size*$scale;
 $h1_size : $h2_size*$scale;
 
 .small_size { 
-  font-size: $sm_size rem;
+  font-size: $sm_size;
 }
 h4 {
-  font-size: $h4_size rem;
+  font-size: $h4_size;
 }
 h3 {
-  font-size: $h3_size rem;
+  font-size: $h3_size;
 }
 h2 {
-  font-size: $h2_size rem;
+  font-size: $h2_size;
 }
 h1 {
-  font-size: $h1_size rem;
+  font-size: $h1_size;
 }
 
 ///////////////////////////////////////////////////
@@ -73,9 +73,30 @@ h1 {
 }
 
 .row {
-  padding: 0 1.4rem;
+  padding: 0 2rem;
   max-width: $Column_Size;
 }
+
+.description {
+    text-align: left;
+    background: #FFF;
+    color: #1a3b3c;
+  // color:red;
+
+    // border-radius: 50px;
+    h2 {
+      // font-size: 1.5rem; line-height: 2.427rem;
+      // font-size:2.023rem; line-height:3.273rem;
+    }
+    h3 {
+      // font-size: 1.25rem; line-height: 2.202rem;
+      font-size: $h4_size; line-height: 2;
+      font-family: 'Calluna',serif;
+      font-style: italic;
+      font-weight: 100;
+    }
+}
+
 
 // Header for the landing page
 #header_landing {
@@ -290,22 +311,14 @@ blockquote cite:before {
     content: "\2014 \2009";
 }
 
-// RESPONSIVE BIG SCREENS (mobile first)
-@media all and (min-width: 900px) {
-  blockquote {
-      padding: .25rem 4rem;
-  }
 
-  blockquote:before {
-      left: 0;
-      top: -2rem;
-  }
+
 
   // .post h3 {
   //     font-size: 1.4rem;
   //     line-height: 2rem;
   // }
-}
+
 
 
 // {block:IfFadeOn}
@@ -358,13 +371,6 @@ body {
     padding-top: 55px;
 }
 
-#BlogName {
-/*padding-bottom: 2.4rem;*/
-/*font-size:3.272rem; line-height:3.926rem;*/
-/*font-size:2.427rem; line-height:2.912rem;*/
-/*font-size:2.827rem; line-height:3.534rem;*/
-}
-
 #header_image {
     margin: 0 auto;
 /*padding-top: 55px;*/
@@ -407,35 +413,7 @@ h1,h2,h3,h4,h5 {
 /*margin-top:4.8rem;*/
 }
 
-.description {
-    text-align: left;
-    background: #FFF;
-    color: #1a3b3c;
-    border-radius: 50px;
-    h2 {
-      // font-size: 1.5rem; line-height: 2.427rem;
-      // font-size:2.023rem; line-height:3.273rem;
-    }
-    h3 {
-      // font-size: 1.25rem; line-height: 2.202rem;
-      font-size: $h4_size rem;
-      font-family: 'Calluna',serif;
-      font-style: italic;
-      font-weight: 100;
-    }
-}
 
-.h2_size {
-/*font-size:1.25rem; line-height:2.202rem;*/
-    font-size: 1.5rem; line-height: 2.427rem;
-/*font-size:2.023rem; line-height:3.273rem;*/
-}
-
-.h3_size {
-    font-size: 1.25rem; line-height: 2.202rem;
-/*font-size:1.5rem; line-height:2.427rem;*/
-/*font-size:2.023rem; line-height:3.273rem;*/
-}
 
 .header_tag {
     text-align: left;
@@ -502,4 +480,25 @@ p.a {
 
 .bottom {
   padding: 0 0 2rem 0;
+}
+
+
+// RESPONSIVE BIG SCREENS (mobile first)
+@media all and (min-width: 900px) {
+  blockquote {
+      padding: .25rem 4rem;
+  }
+
+  blockquote:before {
+      left: 0;
+      top: -2rem;
+  }
+
+  .description {
+    h3 {
+      font-size: $h3_size;
+      // font-size: 6.44rem;
+      // color: red;
+    }
+  }
 }

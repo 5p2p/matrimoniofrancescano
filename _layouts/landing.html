@@ -83,36 +83,46 @@
         </header>
  --> 
 
-        <div class="header fullRow whitebg" id="header_landing">
+        <!-- <div class="row header fullRow whitebg" id="header_landing"> -->
+        <div class="header whitebg" id="header_landing">
+
 
             <div id="header_image">
                 <img src="{{site.header}}">
             </div>
             
             <!-- <div class="spaceSmall"></div> -->
-            <h1 id="BlogName">{{ page.title }}</h1>
+            <div class="row">
 
-            <ul style="padding-bottom: 1rem">
-                <li style="list-style: none">
-                {% for page in site.data.menu %}</li>
-                <li class="menu_item">
-                    <!--<li class="">-->
-                    <a href="{{page.href}}">{{page.title}}</a>
-                </li>
-                {% endfor %}
-            </ul><!-- <div class="spaceSmall"></div> -->
+                <h1>{{ page.title }}</h1>
+
+                <ul style="padding-bottom: 1rem">
+
+                    {% for page in site.data.menu %}</li>
+                    <li class="menu_item">
+                        <a href="{{page.href}}">{{page.title}}</a>
+                    </li>
+                    {% endfor %}
+                    
+                </ul>
+
+            </div>
+
         </div>
 
-        <section class="row description">
+
+        <div class="row description">
             <!-- <div class="spaceSmallSmall"></div> -->
-            <div class="row">
+            <!-- <div class="row"> -->
 
 
                 {{ content }}
             
 
-            </div>
-        </section>
+            <!-- </div> -->
+        </div>
+
+
         <div class="postBottom hideOnPrint tophr">
             <!--hide on index, show on permalink-->
             <h3><a href="{{site.url}}">Il Matrimonio Francescano</a></h3>
