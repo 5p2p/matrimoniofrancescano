@@ -43,24 +43,35 @@ $h4_size : $pg_size*$scale;
 $h3_size : $h4_size*$scale;
 $h2_size : $h3_size*$scale;
 $h1_size : $h2_size*$scale;
+$bg_size : $h1_size*$scale;
 
-.small_size { 
-  font-size: $sm_size;
-}
-h4 {
-  font-size: $h4_size;
-}
-h3 {
-  font-size: $h3_size;
-}
-h2 {
-  font-size: $h2_size;
-}
-h1 {
-  font-size: $h1_size;
-}
+.sm_size { font-size: $sm_size; }
+.bg_size { font-size: $bg_size;}
+h4 { font-size: $h4_size; }
+h3 { font-size: $h3_size; }
+h2 { font-size: $h2_size; }
+h1 { font-size: $h1_size; }
+
 
 ///////////////////////////////////////////////////
+
+// Header settings
+
+.landing {
+  margin: 0 auto;
+  padding: 2rem 0 0 0;
+  background-color: $Header_Background;
+  text-align: center;
+  img { height: auto; max-height: $Max_height;}
+  ul { padding: 1rem 0;}
+  li {width: auto; text-align: center; padding: 0 0.5rem; line-height: 1.8;}
+}
+
+.bigTitle {
+  font-size: $h1_size
+}
+
+// ------------------------------------------------
 
 
 .archivio {
@@ -90,57 +101,13 @@ h1 {
     }
     h3 {
       // font-size: 1.25rem; line-height: 2.202rem;
-      font-size: $h4_size; line-height: 2;
+      font-size: $h4_size; line-height: 1.8;
       font-family: 'Calluna',serif;
       font-style: italic;
       font-weight: 100;
     }
 }
 
-
-// Header for the landing page
-#header_landing {
-    background-color: $Header_Background;
-}
-
-// Normal header
-#header {
-    background-color: #fff;
-}
-
-#header_image {
-  padding: 1rem 0;
-    margin: 0 auto;
-/*padding-top: 55px;*/
-/*margin-top: -55px;*/
-    background: $Header_Background;
-    max-width: 700px;
-/*padding-top: 2rem;*/
-/*border-top: 2px solid #80CFD3;*/
-  img {
-    height: auto;
-    max-height: $Max_height;
-  }
-}
-
-
-.header p {
-    color: $Header;
-    opacity: .6;
-}
-
-.header ul li {
-    color: $Header;
-    opacity: .6;
-}
-
-#headerTint {
-    background: $Tint;
-}
-
-#bigTitle {
-    color: $Header;
-}
 
 // Highlight Options
 ::selection {
@@ -160,9 +127,6 @@ a:hover {
     color: $Main;
 }
 
-.header #title:hover {
-    color: $Main;
-}
 
 .menuIcon:hover {
     color: $Main;
@@ -195,13 +159,6 @@ body,ol.notes li.note blockquote a,.postAuthor,.postStats,ol.notes li {
     font-family: $Body;
 }
 
-.header ul,.header p {
-    display: block;
-}
-
-.header h1 {
-    display: block;
-}
 
 .backButtonContainer {
     display: none !important;
@@ -211,9 +168,7 @@ body,ol.notes li.note blockquote a,.postAuthor,.postStats,ol.notes li {
     display: none;
 }
 
-#header {
-    background-color: $Header_Background;
-}
+
 
 // {block:PermalinkPage}
 //   <style>
@@ -367,31 +322,11 @@ body {
     color: $Main;
 }
 
-.padding_header_height {
-    padding-top: 55px;
-}
-
-#header_image {
-    margin: 0 auto;
-/*padding-top: 55px;*/
-/*margin-top: -55px;*/
-    background: #54aeb4;
-    max-width: 700px;
-/*padding-top: 2rem;*/
-/*border-top: 2px solid #80CFD3;*/
-}
 
 .whitebg {
     background: #fff;
 }
 
-.headerbg {
-    background: #54aeb4;
-}
-
-.headerbg.whitebg {
-    background: #fff;
-}
 
 h1,h2,h3,h4,h5 {
     color: #1a3b3c;
@@ -415,17 +350,7 @@ h1,h2,h3,h4,h5 {
 
 
 
-.header_tag {
-    text-align: left;
-}
 
-.content_header {
-    font-size: 1.5rem;
-    line-height: 2.427rem;
-    font-weight: 900;
-/*border-bottom: 2px solid #80CFD3; */
-    text-align: center;
-}
 
 .menu_item,.menu_item_landing {
   @extend .font_black;
