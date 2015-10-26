@@ -86,7 +86,6 @@
         <!-- <div class="row header fullRow whitebg" id="header_landing"> -->
         <header class="landing">
 
-
             <img src="{{site.header}}">
             
             <div class="row">
@@ -94,13 +93,11 @@
                 <h1 class="bg_size">{{ page.title }}</h1>
 
                 <ul>
-
                     {% for page in site.data.menu %}</li>
                     <li class="menu_item">
                         <a href="{{page.href}}">{{page.title}}</a>
                     </li>
                     {% endfor %}
-
                 </ul>
 
             </div>

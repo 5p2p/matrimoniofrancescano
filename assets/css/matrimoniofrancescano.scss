@@ -37,16 +37,18 @@ $Fancy:                   "Clarendon"; // quotes
 
 // Typography
 $scale   : 1.25;
-$pg_size : 1.0rem;
+$pg_size : 1.0rem;          // paragraph size
 $sm_size : $pg_size/$scale;
+$vs_size : $sm_size/$scale;
 $h4_size : $pg_size*$scale;
 $h3_size : $h4_size*$scale;
 $h2_size : $h3_size*$scale;
 $h1_size : $h2_size*$scale;
 $bg_size : $h1_size*$scale;
 
-.sm_size { font-size: $sm_size; }
-.bg_size { font-size: $bg_size;}
+.vs_size { font-size: $vs_size; } // very small text
+.sm_size { font-size: $sm_size; } // small text
+.bg_size { font-size: $bg_size; } // big text
 h4 { font-size: $h4_size; }
 h3 { font-size: $h3_size; }
 h2 { font-size: $h2_size; }
@@ -63,9 +65,13 @@ h1 { font-size: $h1_size; }
   background-color: $Header_Background;
   text-align: center;
   img { height: auto; max-height: $Max_height;}
-  ul { padding: 1rem 0;}
+  ul { padding: 0}
   li {width: auto; text-align: center; padding: 0 0.5rem; line-height: 1.8;}
 }
+
+// ------------------------------------------------
+
+
 
 // ------------------------------------------------
 
@@ -91,7 +97,8 @@ h1 { font-size: $h1_size; }
   // color:red;
 
     // border-radius: 50px;
-    h2 {
+    h2 a {
+      @extend .font_black;
       // font-size: 1.5rem; line-height: 2.427rem;
       // font-size:2.023rem; line-height:3.273rem;
     }
@@ -344,10 +351,6 @@ h1,h2,h3,h4,h5 {
 /*margin-top:4.8rem;*/
 }
 
-
-
-
-
 .menu_item,.menu_item_landing {
   @extend .font_black;
   display: inline-block;
@@ -395,8 +398,10 @@ p.a {
 
 .readMoreButton {
   margin: 1rem 0 2rem 0;
-  font-size: 1.6rem; //2.427rem; line-height:2.912rem;
-
+  a {
+    font-size: 1.6rem; //2.427rem; line-height:2.912rem;
+    @extend .font_black;
+  }
 }
 
 .bottom {
@@ -406,6 +411,19 @@ p.a {
 
 // RESPONSIVE BIG SCREENS (mobile first)
 @media all and (min-width: 900px) {
+  
+  .bg_size { font-size: $bg_size*$scale; line-height: 1.0;} // big text on big screens
+
+  .landing {
+    ul {padding-bottom: 1rem;}
+    li { font-size: $h4_size;}
+  }
+
+  .description {
+    h3 {
+      font-size: $h3_size;
+    }
+  }
   blockquote {
       padding: .25rem 4rem;
   }
@@ -413,13 +431,5 @@ p.a {
   blockquote:before {
       left: 0;
       top: -2rem;
-  }
-
-  .description {
-    h3 {
-      font-size: $h3_size;
-      // font-size: 6.44rem;
-      // color: red;
-    }
   }
 }
