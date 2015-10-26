@@ -2,6 +2,12 @@
 # Sass definitions
 ---
 
+
+// NOTE
+// - correct all h1-h4 size assignments (non ad-hoc font-size)
+// - is there a google font alterntive?
+
+
 ///////////////////////////////////////////////////
 
 // <!--Colours-->
@@ -27,6 +33,31 @@ $Fancy:                   "Clarendon"; // quotes
   font-family: "calluna-sans",sans-serif;
   font-style: normal;
   font-weight: 900;
+}
+
+// Typography
+$scale   : 1.2;
+$pg_size : 1.0;
+$sm_size : $pg_size/$scale;
+$h4_size : $pg_size*$scale;
+$h3_size : $h4_size*$scale;
+$h2_size : $h3_size*$scale;
+$h1_size : $h2_size*$scale;
+
+.small_size { 
+  font-size: $sm_size rem;
+}
+h4 {
+  font-size: $h4_size rem;
+}
+h3 {
+  font-size: $h3_size rem;
+}
+h2 {
+  font-size: $h2_size rem;
+}
+h1 {
+  font-size: $h1_size rem;
 }
 
 ///////////////////////////////////////////////////
@@ -270,10 +301,10 @@ blockquote cite:before {
       top: -2rem;
   }
 
-  .post h3 {
-      font-size: 1.4rem;
-      line-height: 2rem;
-  }
+  // .post h3 {
+  //     font-size: 1.4rem;
+  //     line-height: 2rem;
+  // }
 }
 
 
@@ -383,10 +414,11 @@ h1,h2,h3,h4,h5 {
     border-radius: 50px;
     h2 {
       // font-size: 1.5rem; line-height: 2.427rem;
-      font-size:2.023rem; line-height:3.273rem;
+      // font-size:2.023rem; line-height:3.273rem;
     }
     h3 {
-      font-size: 1.25rem; line-height: 2.202rem;
+      // font-size: 1.25rem; line-height: 2.202rem;
+      font-size: $h4_size rem;
       font-family: 'Calluna',serif;
       font-style: italic;
       font-weight: 100;
@@ -464,6 +496,8 @@ p.a {
 
 .readMoreButton {
   margin: 1rem 0 2rem 0;
+  font-size: 1.6rem; //2.427rem; line-height:2.912rem;
+
 }
 
 .bottom {
