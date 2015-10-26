@@ -20,6 +20,7 @@ header:  images/header/header.png
 # ---------------------------------------------------------
 # Jekyll stuff
 # ---------------------------------------------------------
+permalink: /:categories/:title
 markdown: kramdown
 timezone: Europe/Rome
 future: false
