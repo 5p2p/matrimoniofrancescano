@@ -1,34 +1,157 @@
-<!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<!-- MATERIALIZE CSS -->
-<!-- Compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{% include header.html %} 
 
-
-<!-- Compiled and minified JavaScript -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js">
-</script>
-
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 
 </head>
 
+
 <body>
 
-<div style="max-width:700px; margin: 0 auto">
-<div class="row">
 
-<h1>{{page.title}}</h1>
-{{ content }}
 
-</div>
+<div id="sb-site"> <!--main content for animation-->
+
+
+<header id="top">
+    
+    <div class="logo">
+        &nbsp;<a href="/"><img src="{{site.logo}}" /></a>
+    </div>
+
+    <nav>
+
+    {% for page in site.data.menu %}
+        <a class="item" href="{{page.href}}">{{page.title}}</a>
+    {% endfor %}
+
+    </nav>
+     
+</header>
+
+<div class="header_spacer"></div>
+
+<img id="splash" src="" alt="">
+
+<div class="row post text">
+
+    <div class="postHead">
+      
+        <h1 class="title"><a href="{{page.url}}">{{page.title}}</a></h1>
+      
+        <span class="postAuthor">
+          
+              <a href="/chisiamo"><img class="postAuthorImage" src="{{site.logo}}"/></a>
+              
+              da
+              <a href="/chisiamo">
+              <span class="author-name">
+
+              {% include authors.html %}
+
+              </span></a> 
+
+
+                {% include dates_ita.html %}
+
+
+
+        </span>
+      
+    </div>
+    
+    <div class="post">
+
+
+    {{ content }}    
+    
+    </div>
+
+
+  <!--POST FOOTER FOR TEXT-->
+    <div class="postFooter">
+      <ul class="postStats bmargin">
+        
+
+
+<!-- FOR LOOP TO ADD TAGS -->
+          
+          <li class="tags">
+                <a href="http://matrimoniofrancescano.tumblr.com/tagged/articoli" class="nobold articoli">articoli</a>
+            </li>
+          
+
+          
+          
+            <a class="share" id="shareTwitter" href="https://twitter.com/share?" target="_blank" url="" onclick="return !window.open(this.href, 'Facebook', 'width=640,height=300')">
+                <i class="fa fa-twitter"></i> Tweet
+            </a>
+          
+          
+
+          
+          
+            <a class="share" id="shareFacebook" href="#" onclick="shareFunction()">
+                <i class="fa fa-facebook-square"></i> Condividi
+            </a>
+          
+          
+      </ul>
+    </div>
+  
+    
+    <a id="previousPost" href="http://matrimoniofrancescano.tumblr.com/post/125874048356"></a>
+    <a id="nextPost" href="http://matrimoniofrancescano.tumblr.com/post/126176520526"></a>
+    <a id="randomPost" href="http://matrimoniofrancescano.tumblr.com/random"></a>
+    <p class="pCenter">
+        <a class="hint" id="tooltip" data-title=" Use your arrow keys to navigate OR use the forward slash to load a random post">
+          <i class="fa fa-keyboard-o"></i>
+        </a>
+    </p>
+    
+  
+
+  <!--Post Navigation-->
+  
+    
+      <div class="permalinkPagination hideOnPrint">
+
+        
+          <a class="postNav" id="previousPost" href="http://matrimoniofrancescano.tumblr.com/post/125874048356"><i class="fa fa-long-arrow-left"></i></a>
+        
+
+        
+              <a class="postNav" href="http://matrimoniofrancescano.tumblr.com/random"><i class="fa fa-random"></i></a>
+        
+
+        
+          <a class="postNav" id="nextPost" href="http://matrimoniofrancescano.tumblr.com/post/126176520526"><i class="fa fa-long-arrow-right"></i></a>
+        
+
+      </div>
+      <div class="spaceSmall"></div> <!--space-->
+    
+  
+</div> <!--Content row-->
+
+{% include footer.html %}
+
+<!-- This script makes the header more compact on smaller screens -->
+
+<script>
+// $(document).ready(function () {
+    if($(window).width() < 700){
+   // alert('Less than 700');
+
+        $("a.item:contains('Testimonianze')").hide();
+        $("a.item:contains('Consigli pratici')").text('Consigli');            
+    }
+// });
+</script>
+
+
 
 </body>
 </html>

@@ -845,12 +845,13 @@ ol.notes li.note blockquote a {
     margin-top: 1rem;
     margin-bottom: 2rem;
     text-align: left;
-    font-weight: 300;
+    /*font-weight: 300;*/
 }
 
-.postAuthor a {
+/*.postAuthor a {
     font-weight: 300;
 }
+*/
 
 .postAuthorImage {
     display: inline !important;
