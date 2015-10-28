@@ -32,12 +32,23 @@
 
 <div class="header_spacer"></div>
 
+
 <style type="text/css">
+{% if page.image %}
 .splash {background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{site.images}}/{{page.image}}');}
+.postHead, .postHead h1, .postAuthor {color: white;}
+{% else %}
+.splash {
+    /*height:10px;*/
+    /*background: red;*/
+    height: 14rem !important ;
+}
+{% endif %}
 </style>
 
+
 <section id="postTitle">
-    <div class="splash"></div>
+    <div class="splash caz"></div>
 
     <div class="postHead">
         <h1><a href="{{page.url}}">{{page.title}}</a></h1>
@@ -78,17 +89,10 @@
           <li class="tags">
                 <a href="http://matrimoniofrancescano.tumblr.com/tagged/articoli" class="nobold articoli">articoli</a>
             </li>
-          
 
-          
-          
             <a class="share" id="shareTwitter" href="https://twitter.com/share?" target="_blank" url="" onclick="return !window.open(this.href, 'Facebook', 'width=640,height=300')">
                 <i class="fa fa-twitter"></i> Tweet
             </a>
-          
-          
-
-          
           
             <a class="share" id="shareFacebook" href="#" onclick="shareFunction()">
                 <i class="fa fa-facebook-square"></i> Condividi
