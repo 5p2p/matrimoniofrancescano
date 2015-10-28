@@ -20,6 +20,7 @@ header:  images/header/header.png
 # ---------------------------------------------------------
 # Jekyll stuff
 # ---------------------------------------------------------
+images: images/posts
 permalink: /:categories/:title
 markdown: kramdown
 timezone: Europe/Rome

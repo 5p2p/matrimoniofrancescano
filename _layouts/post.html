@@ -11,7 +11,6 @@
 <body>
 
 
-
 <div id="sb-site"> <!--main content for animation-->
 
 
@@ -33,13 +32,16 @@
 
 <div class="header_spacer"></div>
 
-<img id="splash" src="" alt="">
+<style type="text/css">
+.splash {background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{site.images}}/{{page.image}}');}
+</style>
 
-<div class="row post text">
+<section id="postTitle">
+    <div class="splash"></div>
 
     <div class="postHead">
-      
-        <h1 class="title"><a href="{{page.url}}">{{page.title}}</a></h1>
+        <h1><a href="{{page.url}}">{{page.title}}</a></h1>
       
         <span class="postAuthor">
           
@@ -53,25 +55,21 @@
 
               </span></a> 
 
-
                 {% include dates_ita.html %}
 
-
-
         </span>
-      
     </div>
-    
-    <div class="post">
+</section>
 
+<div class="post row">
 
     {{ content }}    
     
-    </div>
+</div>
 
 
   <!--POST FOOTER FOR TEXT-->
-    <div class="postFooter">
+    <div class="postFooter row">
       <ul class="postStats bmargin">
         
 
@@ -134,7 +132,7 @@
       <div class="spaceSmall"></div> <!--space-->
     
   
-</div> <!--Content row-->
+<!-- </div> Content row -->
 
 {% include footer.html %}
 

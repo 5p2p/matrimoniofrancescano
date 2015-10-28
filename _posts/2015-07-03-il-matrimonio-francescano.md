@@ -7,6 +7,7 @@ author: ruvido
 publish: ok
 slug: il-matrimonio-francescano
 date: 4-10-2015
+image: il-matrimonio-francescano.jpg
 ---
 
 Arrivato ad Assisi la bellezza e la semplicità di Francesco e Chiara ti hanno rapito. Hai sentito parlare di un modo nuovo per celebrare il tuo matrimonio, una modalità fuori-schema che va al centro del sacramento, che ne esalta la vocazione e che trasmette la forza e l'essenza dell'amore. È questo che cerchi? Continua a leggere.
