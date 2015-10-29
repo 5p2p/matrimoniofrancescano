@@ -117,13 +117,15 @@ POST & PAGE TYPE
         {% unless page.type == 'page' %}
         <span class="postAuthor">
           
-              <a href="/chisiamo"><img class="postAuthorImage" src="{{site.logo}}"/></a>
+              <a href="/chi-siamo"><img class="postAuthorImage" src="{{site.logo}}"/></a>
               
               da
-              <a href="/chisiamo">
+              <a href="/chi-siamo">
               <span class="author-name">
 
-              {% include authors.html %}
+              {% for author in site.authors %}{% if author.name == page.author %}
+                {{ author.display }},
+              {%endif%}{%endfor%}
 
               </span></a> 
 

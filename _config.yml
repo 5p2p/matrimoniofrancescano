@@ -15,6 +15,26 @@ fb_img:  /images/posts/il-matrimonio-francescano.jpg
 
 
 # ---------------------------------------------------------
+# Authors
+# ---------------------------------------------------------
+authors:
+
+    - name: ruvido
+      display: Alessandra e Francesco
+
+    - name: alescanca
+      display: Alessandra e Francesco
+
+    - name: luca
+      display: Chiara e Luca
+
+    - name: chiara
+      display: Chiara e Luca
+
+    - name: guest
+      display: una coppia di sposi
+
+# ---------------------------------------------------------
 # Menus
 # ---------------------------------------------------------
 menu:
@@ -61,3 +81,4 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "post"
+      author: "guest"
