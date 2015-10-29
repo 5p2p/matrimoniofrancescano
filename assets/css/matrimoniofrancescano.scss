@@ -79,7 +79,7 @@ body{
 
 #landing {
   margin: 0 auto;
-  padding: 2rem 0 0 0;
+  padding: 2rem 0 0.2rem 0;
   background-color: $Header_Background;
   text-align: center;
   img { height: auto; max-height: $Max_height;}
@@ -316,8 +316,9 @@ a {
       // font-size: 1.25rem; line-height: 2.202rem;
       font-size: $h4_size; line-height: 1.8;
       font-family: 'Calluna',serif;
-      font-style: italic;
+      // font-style: italic;
       font-weight: 100;
+      line-height: $Line_height;
     }
 }
 

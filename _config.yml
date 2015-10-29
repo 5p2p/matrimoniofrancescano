@@ -13,6 +13,35 @@ favicon: /images/favicon/logo-128.jpg
 header:  /images/header/header.png
 fb_img:  /images/posts/il-matrimonio-francescano.jpg
 
+
+# ---------------------------------------------------------
+# Menus
+# ---------------------------------------------------------
+menu:
+
+  - title: "Articoli"
+    href: "/articoli"
+
+  - title: "Testimonianze"
+    href: "/testimonianze"
+
+  - title: "Chi siamo"
+    href: "/chi-siamo"
+
+  - title: "Consigli pratici"
+    href: "/consigli-pratici"
+# ---------------------------------------------------------
+footer_menu:
+
+  - title: "Archivio"
+    href: "/articoli"
+
+  - title: "Scrivici"
+    href: "mailto:info@matrimoniofrancescano.it"
+
+  - title: "Facebook"
+    href: "https://www.facebook.com/MatrimonioFrancescano"
+
 # ---------------------------------------------------------
 # Accounts
 # ---------------------------------------------------------
