@@ -33,88 +33,36 @@
 <div class="header_spacer"></div>
 
 
+<!-- 
+---------------------------------------------------
+---------------------------------------------------
+POST TYPE
+---------------------------------------------------
+---------------------------------------------------
+ -->
+
+ {% if page.type == '' or page.type == 'post' %}
+
 <style type="text/css">
 {% if page.image %}
 .splash {background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{site.images}}/{{page.image}}');}
 .postHead, .postHead h1, .postAuthor {color: white;}
 {% else %}
 .splash {
+    /*height:10px;*/
+    /*background: red;*/
     height: 14rem !important ;
 }
 {% endif %}
 </style>
 
 
-
- <!-- 
----------------------------------------------------
----------------------------------------------------
-INDEX TYPE
----------------------------------------------------
----------------------------------------------------
- -->
-{% if page.type == 'index' %}
-
 <section id="postTitle">
-    <div class="splash"></div>
-
-    <div class="postHead">
-        <h1><a href="{{page.url}}">{{page.title}}</a></h1>
-    </div>
-</section>
-
-<div class="post row">
-
-
-    <div class="postIndex">
-    {% for post in site.posts %}
-
-        {% assign print_post = false %}
-        {% if post.tag contains page.tag %}{% assign print_post = true %}{% endif %}
-        {% unless page.tag %}{% assign print_post = true %}{% endunless %}
-
-        {% if print_post %}
-
-        <div class="postTitle"><a href="{{ post.url }}">{{ post.title }}</a></div>
-        <div class="postStats"><i class="fa fa-clock-o"></i>{% include dates_ita.html %}
-            {% if post.tag %}
-            <div class="tags">
-            <i class="fa fa-tag"></i>
-            {% for tag in post.tag %}
-                <a href="/{{tag}}" class="nobold">{{tag}}</a>
-            {% endfor %}
-            </div>
-            {% endif %}
-        </div>
-
-        {% endif %}
-
-
-
-    {% endfor %}
-    </div>
-
-</div>
-
-<!-- 
----------------------------------------------------
----------------------------------------------------
-POST & PAGE TYPE
----------------------------------------------------
----------------------------------------------------
- -->
-
-{% else %}
-
-
-
-<section id="postTitle">
-    <div class="splash"></div>
+    <div class="splash caz"></div>
 
     <div class="postHead">
         <h1><a href="{{page.url}}">{{page.title}}</a></h1>
       
-        {% unless page.type == 'page' %}
         <span class="postAuthor">
           
               <a href="/chisiamo"><img class="postAuthorImage" src="{{site.logo}}"/></a>
@@ -130,7 +78,6 @@ POST & PAGE TYPE
                 {% include dates_ita.html %}
 
         </span>
-        {% endunless %}
     </div>
 </section>
 
@@ -164,13 +111,102 @@ POST & PAGE TYPE
       </ul>
     </div>
   
-{% endif %}
 
 <!-- 
 ---------------------------------------------------
 ---------------------------------------------------
+PAGE TYPE
+---------------------------------------------------
 ---------------------------------------------------
  -->
+{% elsif page.type == 'page' %}
+
+ <!-- 
+---------------------------------------------------
+---------------------------------------------------
+INDEX TYPE
+---------------------------------------------------
+---------------------------------------------------
+ -->
+{% elsif page.type == 'index' %}
+
+<section id="postTitle">
+    <div class="splash caz"></div>
+
+    <div class="postHead">
+        <h1><a href="{{page.url}}">{{page.title}}</a></h1>
+      
+        <span class="postAuthor">
+          
+              <a href="/chisiamo"><img class="postAuthorImage" src="{{site.logo}}"/></a>
+              
+              da
+              <a href="/chisiamo">
+              <span class="author-name">
+
+              {% include authors.html %}
+
+              </span></a> 
+
+                {% include dates_ita.html %}
+
+        </span>
+    </div>
+</section>
+
+<div class="post row">
+
+
+{% if page.tag %}
+
+<ul class="postIndex">
+{% for post in site.tags[ page.tag ] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+{% else %} 
+
+<ul class="postIndex">
+{% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+
+{% endif %} 
+    
+</div>
+
+
+  <!--POST FOOTER FOR TEXT-->
+    <div class="postFooter row">
+      <ul class="postStats bmargin">
+        
+          
+        {% for tag in page.tag %}
+        <li class="tags">
+            <a href="/{{tag}}" class="nobold">{{tag}}</a>
+        </li>
+        {% endfor %}
+
+        <a class="share" id="shareTwitter" href="https://twitter.com/share?" target="_blank" url="" onclick="return !window.open(this.href, 'Facebook', 'width=640,height=300')">
+            <i class="fa fa-twitter"></i> Tweet
+        </a>
+      
+        <a class="share" id="shareFacebook" href="#" onclick="shareFunction()">
+            <i class="fa fa-facebook-square"></i> Condividi
+        </a>
+          
+          
+      </ul>
+    </div>
+
+
+{% endif %}  
+
+
+
 
 
 {% include footer.html %}

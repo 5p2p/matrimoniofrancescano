@@ -1,11 +1,6 @@
 ---
-title: Prima testimonianza
-<!-- image: ok -->
-<!-- preview: ok -->
-publish: ok
-slug: prima-testimonianza
-date: 26-10-2015
-tag: testimonianze
+title: Chi siamo
+type: page
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies quis urna quis pulvinar. Nam gravida, elit nec convallis gravida, ex arcu lobortis eros, egestas placerat mauris est egestas lorem. Aliquam sed erat accumsan, sagittis turpis ac, aliquam dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In consectetur efficitur sem, eget vestibulum ante venenatis non. Maecenas vitae condimentum odio. Nulla id suscipit nulla, at faucibus nibh. Integer maximus sem ut metus fermentum pulvinar.
