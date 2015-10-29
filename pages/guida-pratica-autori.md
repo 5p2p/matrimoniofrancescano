@@ -1,6 +1,6 @@
 ---
 title: Guida pratica per gli autori del matrimoniofrancescano.it
-permalink: guida-pratica-autori
+permalink: guida-pratica-autori/
 type: page
 ---
 

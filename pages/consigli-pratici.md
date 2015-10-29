@@ -1,7 +1,7 @@
 ---
 title: Consigli pratici
 type: page
-permalink: consigli-pratici
+permalink: consigli-pratici/
 ---
 
 Ciao!
