@@ -1,14 +1,17 @@
 ---
-layout: page
 title: Guida pratica per gli autori del matrimoniofrancescano.it
+permalink: guida-pratica-autori
+type: page
 ---
+
+Di seguito alcune regole pratiche per scrivere un articolo su questo sito.
 
 ## Va bene se scrivo gli articoli in Word?
 
-Assolutamente no. Ogni articolo è un semplice file di testo formattato usando il linguaggio *markdown*. Questo è il tipo di file più semplice e basilare e puo' essere generato con (quasi) qualsiasi programma: dall'email al notepad di Windows. Esistono anche interfaccie apposta sia per Windows che per Mac che facilitano la scrittura in markdown. La cosa più **semplice** in assoluto è usare un editor online come
+No. Ogni articolo deve essere un semplice file di testo formattato usando il linguaggio *markdown* (vedi sotto). Questo è il tipo di file più semplice e basilare e puo' essere generato con (quasi) qualsiasi programma: dall'email al notepad di Windows. Esistono anche interfaccie apposta sia per Windows che per Mac che facilitano la scrittura in markdown. La cosa più **semplice** in assoluto è usare un editor online come
 
- https://stackedit.io
- http://dillinger.io
+- <https://stackedit.io>
+- <http://dillinger.io>
 
  Su *Android* un'ottima app si chiama [Jotterpad](https://play.google.com/store/apps/details?id=com.jotterpad.x&hl=en). Tutti e tre questi editor possono anche essere sincronizzati con *Dropbox*.
 
@@ -21,9 +24,9 @@ Assolutamente no. Ogni articolo è un semplice file di testo formattato usando i
 
 **Markdown**
 
-```
-Questo testo ha una **piccola parte in grassetto** ed una seconda parte in *corsivo*
-```
+
+    Questo testo ha una **piccola parte in grassetto** ed una seconda parte in *corsivo*
+
 
 **Diventa**
 
@@ -33,16 +36,16 @@ Questo testo ha una **piccola parte in grassetto** ed una seconda parte in *cors
 
 **Markdown**
 
-```
+
 Se invece vuoi scrivere una citazione:
 
-> Ciò che mi sembrava amaro, mi fu cambiato in dolcezza di anima e di corpo
-<cite>San Francesco</cite>
-```
+    > Ciò che mi sembrava amaro, mi fu cambiato in dolcezza di anima e di corpo
+    <cite>San Francesco</cite>
+
 
 **Diventa**
 
-Se invece vuoi scrivere una citazione:
+
 > Ciò che mi sembrava amaro, mi fu cambiato in dolcezza di anima e di corpo
 <cite>San Francesco</cite>
 
@@ -50,20 +53,18 @@ Se invece vuoi scrivere una citazione:
 
 **Markdown**
 
-```
 Ecco una semplice lista:
 
-- castità
-- povertà
-- obbedienza
+    - castità
+    - povertà
+    - obbedienza
 
 Che può essere anche ordinata:
 
-1. castità
-2. povertà
-3. obbedienza
+    1. castità
+    2. povertà
+    3. obbedienza
 
-```
 
 **Diventa**
 
@@ -83,12 +84,10 @@ Che può essere anche ordinata:
 
 **Markdown**
 
-```
-## Una nuova sezione
+    ## Una nuova sezione
 
-Qui va il testo della nuova sezione bla bla bla
+    Qui va il testo della nuova sezione bla bla bla
 
-```
 
 **Diventa**
 

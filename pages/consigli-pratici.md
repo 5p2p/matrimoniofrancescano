@@ -1,9 +1,16 @@
 ---
-layout: page
 title: Consigli pratici
-slug: consigli-pratici
+type: page
+permalink: consigli-pratici
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies quis urna quis pulvinar. Nam gravida, elit nec convallis gravida, ex arcu lobortis eros, egestas placerat mauris est egestas lorem. Aliquam sed erat accumsan, sagittis turpis ac, aliquam dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In consectetur efficitur sem, eget vestibulum ante venenatis non. Maecenas vitae condimentum odio. Nulla id suscipit nulla, at faucibus nibh. Integer maximus sem ut metus fermentum pulvinar.
+Ciao!
 
-Etiam a sapien at est placerat hendrerit in id purus. Vivamus auctor dapibus tellus, vel malesuada urna luctus sit amet. Vestibulum quis augue id arcu tincidunt vehicula in tempus lectus. Duis felis velit, pulvinar ac commodo ultricies, tempus non massa. Maecenas elementum velit sit amet nisi congue, et sollicitudin neque pulvinar. Donec ac sollicitudin turpis. Morbi suscipit varius enim sit amet gravida. Maecenas congue placerat neque, ac fermentum neque posuere at. Duis commodo nulla eget est porttitor molestie id et ex. Maecenas maximus gravida libero, molestie laoreet diam lobortis et. Nunc dictum sed elit quis tincidunt. Integer pretium lacus et tincidunt ullamcorper.
+In questa pagina pubblicheremo a breve suggerimenti e consigli pratici su come organizzare il vostro *matrimonio francescano*.
+
+Nel frattempo prendete ispirazione da questi due articoli:
+
+- [Wedding plan francescano, si può fare!](http://5p2p.it/2013/04/24/wedding-plan-francescano.html)
+- [Il matrimonio francescano](/il-matrimonio-francescano)
+
+Buon cammino!
