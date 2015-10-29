@@ -1,7 +1,6 @@
 ---
 title: Chi siamo
 type: page
-permalink: /chi-siamo
 ---
 
 Benvenuto!
