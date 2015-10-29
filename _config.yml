@@ -70,8 +70,8 @@ google_analytics: UA-69446168-1
 # Jekyll stuff
 # ---------------------------------------------------------
 images: /images/posts
-# permalink: /:categories/:title
-permalink: pretty
+permalink: /:categories/:title/
+# permalink: pretty
 markdown: kramdown
 timezone: Europe/Rome
 future: false

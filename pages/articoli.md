@@ -1,5 +1,5 @@
 ---
 title: Articoli
 type: index
-permalink: /articoli
+permalink: articoli/
 ---

@@ -2,10 +2,9 @@
 layout: post
 title: Il matrimonio francescano
 author: ruvido
-<!-- image: ok -->
 <!-- preview: ok -->
 publish: ok
-slug: il-matrimonio-francescano
+<!-- permalink: il-matrimonio-francescano -->
 date: 4-10-2015
 image: il-matrimonio-francescano.jpg
 ---
