@@ -8,10 +8,10 @@ url: http://matrimoniofrancescano.it
 # ---------------------------------------------------------
 # Blog basic design
 # ---------------------------------------------------------
-logo:    images/favicon/logo-128.jpg
-favicon: images/favicon/logo-128.jpg
-header:  images/header/header.png
-fb_img:  images/posts/il-matrimonio-francescano.jpg
+logo:    /images/favicon/logo-128.jpg
+favicon: /images/favicon/logo-128.jpg
+header:  /images/header/header.png
+fb_img:  /images/posts/il-matrimonio-francescano.jpg
 
 # ---------------------------------------------------------
 # Accounts
@@ -21,7 +21,7 @@ fb_img:  images/posts/il-matrimonio-francescano.jpg
 # ---------------------------------------------------------
 # Jekyll stuff
 # ---------------------------------------------------------
-images: images/posts
+images: /images/posts
 permalink: /:categories/:title
 markdown: kramdown
 timezone: Europe/Rome
