@@ -579,7 +579,9 @@ p.a {
   }
   .post > p:first-of-type{font-size: $h4_size*1.1;}
 
-
+  .postAuthor {
+    font-size: 2rem;
+  }
   .bg_size { font-size: $bg_size*$scale; line-height: 1.0;} // big text on big screens
 
   #landing {
