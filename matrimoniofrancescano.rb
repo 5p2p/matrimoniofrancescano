@@ -297,8 +297,9 @@ myblog=Blogdata.new( idump, iblog )
 
 [ myblog.dump_previews, myblog.dump_drafts ].each do |cdir|
 
-  # Dir["#{cdir}/{[!_]**/*,*}.md"].each do |ii|
-  Dir["#{cdir}/{**/*,*}.md"].each do |ii|
+  puts cdir
+  
+  Dir["#{cdir}/{[!_]**/*,*}.md"].each do |ii|
 
     puts '--------------------------------'
 
