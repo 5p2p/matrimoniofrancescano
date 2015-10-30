@@ -28,7 +28,7 @@ $Line_height:             1.5;
 // <!--Fonts-->
 // $Headings:                "calluna-sans",sans-serif;
 $Subheadings:             "calluna-sans";
-$Body:                    "calluna";
+$Body:                    "calluna", serif;
 $Fancy:                   "Clarendon"; // quotes
 .font_black{
   font-family: "calluna-sans",sans-serif;
@@ -177,6 +177,14 @@ body{
     color: $Text;
     border-bottom: 1px dashed $Header_Background;
   }
+  li {
+    font-family: $Body;
+    font-size: $pg_size;
+    font-weight: normal;
+  }
+  h2 {
+    font-size: $h3_size;
+  }
 }
 
 // ------------------------------------------------
@@ -222,9 +230,16 @@ body{
   .postStats .tags a:hover {
     color: $Main;
   }
+  .postPath {
+    line-height: 2.0;
+  }
 }
 // ------------------------------------------------
 
+pre {
+  padding: 0.4rem;
+  background-color: $Gray_Background;
+}
 
 blockquote {
     border: 0; margin: 0; padding: 0;

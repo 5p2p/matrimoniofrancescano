@@ -1,10 +1,10 @@
 ---
-title: Prima testimonianza
+title: Ecco una testimonianza
 <!-- image: ok -->
-<!-- preview: ok -->
-publish: ok
-slug: prima-testimonianza
-date: 26-10-2015
+preview: ok
+<!-- publish: ok -->
+slug: ecco-una-testimonianza
+date: 16-10-2015
 tag: testimonianze
 ---
 

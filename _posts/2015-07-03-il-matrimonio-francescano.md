@@ -22,7 +22,7 @@ Il nostro matrimonio è stato organizzato in questo stile e non potrei pensare a
 
 Di seguito trovi alcune linee guida per chi, come noi, è rimasto affascinato da questa proposta e vorrebbe realizzarla per il proprio matrimonio.
 
-### Al centro c'è il vostro sacramento
+## Al centro c'è il vostro sacramento
 
 L'organizzazione del matrimonio francescano parte dal sacramento. **Parte da voi due.** Avete verificato la vostra relazione? Siete pronti per sposarvi? Siete cresciuti nella fede? Queste sono le domande che vi dovete porre prima di ogni altra cosa, ecco da dove partire:
 
@@ -32,13 +32,13 @@ L'organizzazione del matrimonio francescano parte dal sacramento. **Parte da voi
 
 **Poi viene la preparazione della messa.** Prima del pranzo, del fotografo o dei fiori, viene la preparazione della messa. Quello è il centro del matrimonio e a quello vale la pena donare il vostro cuore e la vostra mente. Fissato quello, tutti il resto viene di conseguenza. Come in una cascata in sequenza, quando il cuore trova il centro, ogni altra cosa si chiarisce da sola, perchè il baricentro della vostra vita è poggiato sulla solida roccia. 
 
-### Rendere partecipi gli ultimi
+## Rendere partecipi gli ultimi
 
 **Il matrimonio francescano non è il matrimonio tirchio!** Lo spreco sa di vecchio, è vuoto, per questo lo stile francescano porta la freschezza dell'amore di non far nulla per apparenza, di vivere tutto in semplicità. Questo non vuol dire necessariamente spendere poco. Abbiamo conosciuto coppie che hanno pagato il biglietto aereo a decine di parenti per permettergli di essere presenti al loro matrimonio, affinchè tutti potessero **gioire della loro gioia**. Coppie che hanno donato **tutti** i regali di nozze per progetti di beneficenza o ad associazioni, affinché gli ultimi ed i dimenticati potessero essere benedetti dalla loro unione. Il matrimonio francescano porta in se il meraviglioso frutto di Francesco di rendere partecipi alla gioia del Padre tutti coloro che si avvicinano a voi o che voi potete raggiungere attraverso le vostre opere. 
 
 Pensaci. 
 
-### Semplicità vuol dire ... fare la cosa più semplice
+## Semplicità vuol dire ... fare la cosa più semplice
 
 Al nostro matrimonio avevamo il desiderio che i nostri stessi amici potessero cucinare e vivere il rinfresco come una grande festa in cui ognuno avrebbe contribuito in qualche modo ... e invece no, questo non è stato possibile. Era complicato. Invece la cosa più semplice era chiamare il catering del paese accanto. Perfetto! In alcuni luoghi, specialmente al sud, la cosa più semplice è niente di meno che andare al ristorante, come fanno tutti! Al centro c'è il vostro sacramento, tutto il resto è corollario. Al centro c'è il Signore stesso che si compromette con voi.
 
@@ -50,7 +50,7 @@ Ma non è finita qui.
 
 Infatti **il matrimonio francescano non è la farsa di un giorno** ma uno stile di vita basato sul Vangelo seguendo le intuizioni di Francesco e Chiara. Un percorso che dura tutta la vita e che parte dall'incarnare nel matrimonio quello che i francescani consacrati vivono nella loro esperienza.
 
-### Castità, povertà e obbedienza
+## Castità, povertà e obbedienza
 
 Questo è il cuore dell'esperienza francescana.
 
@@ -78,7 +78,7 @@ Infine, castità vuol dire uscire dalla mentalità porno della nostra società, 
 - [La potenza della confessione](http://5p2p.it/2015/03/30/la-potenza-della-confessione.html)
 - [La messa, che noia!](http://5p2p.it/2015/03/19/la-messa-che-noia.html)
 
-### Conclusione
+## Conclusione
 
 Spero di averti dato qualche punto di riflessione. Il matrimonio francescano è un'esperienza meravigliosa di pienezza e verità ma **non vuol dire fare il matrimonio etico e solidale** a tutti costi. Vuol dire mettere al centro il sacramento, far partecipare più persone possibili alla vostra gioia &mdash; in particolare gli ultimi &mdash; abbandonare ogni tipo di apparenza e soprattutto abbracciare una vita alla sequela di Gesù alla maniera di Francesco e Chiara.
 

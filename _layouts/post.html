@@ -65,7 +65,6 @@ INDEX TYPE
 
 <div class="post row">
 
-
     <div class="postIndex">
     {% for post in site.posts %}
 
@@ -89,12 +88,57 @@ INDEX TYPE
 
         {% endif %}
 
+    {% endfor %}
+    </div>
 
+</div>
+
+<!-- 
+---------------------------------------------------
+---------------------------------------------------
+PREVIEWS
+---------------------------------------------------
+---------------------------------------------------
+ -->
+
+{% elsif page.type == 'previews' %}
+
+<section id="postTitle">
+    <div class="splash"></div>
+
+    <div class="postHead">
+        <h1><a href="{{page.url}}">{{page.title}}</a></h1>
+    </div>
+</section>
+
+<div class="post row">
+
+    <div class="postIndex">
+    {% for post in site.pages %}
+        {% if post.preview %}
+
+        <div class="postTitle"><a href="{{ post.url }}">{{ post.title }}</a></div>
+        <div class="postStats">
+        <i class="fa fa-clock-o"></i>{% include dates_ita.html %}
+            {% if post.tag %}
+            <div class="tags">
+            <i class="fa fa-tag"></i>
+            {% for tag in post.tag %}
+                <a href="/{{tag}}" class="nobold">{{tag}}</a>
+            {% endfor %}
+            </div>
+            {% endif %}
+            <div class="postPath"><i class="fa fa-folder-open" style="margin-right: 0.1rem;"></i> {{post.path}}</div>
+        </div>
+
+
+        {% endif %}
 
     {% endfor %}
     </div>
 
 </div>
+
 
 <!-- 
 ---------------------------------------------------

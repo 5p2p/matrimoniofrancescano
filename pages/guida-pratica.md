@@ -1,17 +1,17 @@
 ---
-title: Guida pratica per gli autori del matrimoniofrancescano.it
+title: Guida pratica per gli autori
 permalink: guida-pratica/
 type: page
 ---
 
-Di seguito alcune regole pratiche per scrivere un articolo su questo sito.
+Di seguito alcune regole pratiche per scrivere un articolo.
 
 ## Va bene se scrivo gli articoli in Word?
 
-No. Ogni articolo deve essere un semplice file di testo formattato usando il linguaggio *markdown* (vedi sotto). Questo è il tipo di file più semplice e basilare e puo' essere generato con (quasi) qualsiasi programma: dall'email al notepad di Windows. Esistono anche interfaccie apposta sia per Windows che per Mac che facilitano la scrittura in markdown. La cosa più **semplice** in assoluto è usare un editor online come
+No. Ogni articolo deve essere un semplice file di testo formattato usando il linguaggio *markdown* (alla fine della pagina è spiegato come si scrive in *markdown*). Per semplicità si possono usare uno di questi due editor online:
 
-- <https://stackedit.io>
 - <http://dillinger.io>
+- <https://stackedit.io>
 
  Su *Android* un'ottima app si chiama [Jotterpad](https://play.google.com/store/apps/details?id=com.jotterpad.x&hl=en). Tutti e tre questi editor possono anche essere sincronizzati con *Dropbox*.
 
@@ -24,7 +24,7 @@ Il sistema di pubblicazione consiste in tre stadi:
 - preview
 - published
 
-Un articolo si trova nella categoria **draft** quando è ancora una bozza o solo un'idea (infatti si possono creare quanti draft si desiderano e possono anche rimanere incompleti). Ci sono diverse cartelle all'interno di *drafts*, una per ogni coppia che contribuisce al blog. Un draft è definito da una intestazione di questo tipo:
+Un articolo si trova nella categoria **draft** quando è ancora una bozza o solo un'idea (infatti si possono creare quanti draft si desiderano e possono anche rimanere incompleti). Ci sono diverse cartelle all'interno di *drafts*, una per ogni coppia che contribuisce al blog. Un draft deve avere una intestazione di questo tipo:
 
     ---
     title: Ho avuto un'idea geniale
@@ -37,25 +37,33 @@ Sia i tre trattini sopra e sotto che i due tag *title* e *author* sono necessari
     title: Ho avuto un'idea geniale
     author: luca
     ---
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+    Lorem ipsum dolor sit amet, consetetur 
+    sadipscing elitr, sed diam nonumy
+    eirmod tempor invidunt ut labore et 
+    dolore magna aliquyam erat, sed diam
+    voluptua. At vero eos et accusam et 
+    justo duo dolores et ea rebum. 
 
+Aggiungendo il tag **preview: ok** l'articolo passa dalla cartella *drafts* a quella *previews*.
 
-Quando un articolo è finito di scrivere passa alla fase successiva **preview**. In questo stadio l'articolo viene pubblicato online in forma semi-privata in modo da poter essere letto e corretto. In questa fase l'articolo viene rimosso dalla cartella **drafts** e passa alla cartella **previews**. Qui gli articoli di tutti gli autori stanno insieme. Questi articoli possono essere visionati online su <http://matrimoniofrancescano.it/previews>. Ogni correzione deve essere apportata sul file nella cartella **previews**. La modifica sarà visualizzabile online in seguito. Un tipico articolo in questo stadio ha la forma:
 
     ---
     title: Ho avuto un'idea geniale
     author: luca
     preview: ok
     ---
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+    Lorem ipsum dolor sit amet, consetetur 
+    sadipscing elitr, sed diam nonumy
+    eirmod tempor invidunt ut labore et 
+    dolore magna aliquyam erat, sed diam
+    voluptua. At vero eos et accusam et 
+    justo duo dolores et ea rebum.  
 
-Quindi aggiungendo il tag *preview* l'articolo passa da **drafts** a **previews**.
 
-Quando tutte le correzione sono state apportate l'articolo può essere publicato e passa a **published**. Per poter passare a questa fase bisogna aggiungere delle tags:
+
+In questo stadio l'articolo viene pubblicato online in forma semi-privata in modo da poter essere letto e corretto. Qui gli articoli di tutti gli autori stanno insieme nella stessa cartella. Questi articoli possono essere visionati online su [http://matrimoniofrancescano.it/previews](/previews). Ogni correzione deve essere apportata direttamente sul file nella cartella **previews**. La modifica sarà visualizzabile online in seguito. 
+
+Quando tutte le correzione sono state apportate l'articolo può essere pubblicato e passa a **published**. Per poter passare a questa fase bisogna aggiungere delle tags:
 
     ---
     title: Ho avuto un'idea geniale
@@ -64,18 +72,59 @@ Quando tutte le correzione sono state apportate l'articolo può essere publicato
     slug: un-idea-geniale
     date: 10-11-2015
     ---
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+    Lorem ipsum dolor sit amet, consetetur 
+    sadipscing elitr, sed diam nonumy
+    eirmod tempor invidunt ut labore et 
+    dolore magna aliquyam erat, sed diam
+    voluptua. At vero eos et accusam et 
+    justo duo dolores et ea rebum.  
 
-- publish: da l'ok per la publicazione
-- slug: è una variabile interna che contiene un titolo semplificato dove non ci sono caratteri accentati, maiuscole e gli spazi sono sostituiti da "-".
-- date: questa è la data quando l'articolo verrà pubblicato.
+- **publish**: da l'ok per la pubblicazione
+- **slug**: è una variabile interna che contiene un titolo semplificato dove non ci sono caratteri accentati, maiuscole e gli spazi sono sostituiti dal carattere "-".
+- **date**: questa è la data quando l'articolo diventa pubblico. Con questa tag si può gestire il calendario di pubblicazione.
 
-Tutte e tre le tags sono necessarie per la pubblicazione. Quando queste sono presenti, l'articolo viene automaticamente rimosso dalla cartella **previews** e va nella cartella **published**. La cartella **published** funge solo da archivio locale, nessuna modifica all'interno di questa cartella andrà online.
+Tutte e tre le tags sono necessarie per la pubblicazione finale. Quando queste sono presenti, l'articolo viene automaticamente rimosso dalla cartella **previews** e va nella cartella **published**. Se la data è nel futuro, l'articolo rimarrà nascosto fino alla scadenza. La cartella **published** funge solo da archivio locale, nessuna modifica all'interno di questa cartella andrà online.
 
 Come **esempio** all'interno della cartella dropbox condivisa si trova una cartella chiamata *_templates* che contiene i tre modelli di base per scrivere un articolo.
 
+## Se devo mettere una immagine?
+
+Si può inserire al massimo una immagine per articolo. L'immagine va messa nella stessa cartella dell'articolo stesso e viene mossa automaticamente nei vari stadi di pubblicazione. Ad esempio per associare una immagine dal nome 'la-mia-foto.jpg' bisogna modificare l'articolo nel seguente modo:
+
+    ---
+    title: Ho avuto un'idea geniale
+    author: luca
+    preview: ok
+    image: la-mia-foto.jpg
+    ---
+    Lorem ipsum dolor sit amet, consetetur 
+    sadipscing elitr, sed diam nonumy
+    eirmod tempor invidunt ut labore et 
+    dolore magna aliquyam erat, sed diam
+    voluptua. At vero eos et accusam et 
+    justo duo dolores et ea rebum. 
+
+
+## Che tipi di articoli esistono?
+
+Per ora il blog è organizzato in due tipi di contributi:
+
+- articoli
+- testimonianze
+
+I primi rappresentano tutti i contributi al blog, che possono essere su argomenti generali come ad esempio [Il matrimonio francescano](/il-matrimonio-francescano) o vere e proprie testimonianze di coppia. 
+
+- [http://matrimoniofrancescano.it/articoli/](/articoli/)
+
+Le testimonianze sono storie personali specifiche e sono elencate anche separatamente in:
+
+- [http://matrimoniofrancescano.it/testimonianze/](/testimonianze/)
+
+In questo caso è necessario aggiungere al markup iniziale il tag:
+
+    tag: testimonianze
+
+Invece omettendo il tag *author* si avrà un contributo generico (questo quando l'articolo proviene da un autore occasionale).
 
 ## Ho scritto un nuovo articolo, come devo chiamare il file?
 
@@ -91,24 +140,9 @@ Ogni nuovo file deve essere chiamato con un nome che non contiene *spazi* e con 
     il-mio-nuovo-articolo.md
 
 
-## Dove devo mettere per le immagini?
-
-Si può inserire al massimo una immagine per articolo. L'immagine va messa nella stessa cartella dell'articolo stesso e viene mossa automaticamente nei vari stadi di pubblicazione. Ad esempio per associare una immagine dal nome 'la-mia-foto.jpg' bisogna modificare l'articolo nel seguente modo:
-
-    ---
-    title: Ho avuto un'idea geniale
-    author: luca
-    preview: ok
-    image: la-mia-foto.jpg
-    ---
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-
-
 ## Che cos'è il markdown?
 
-Ogni articolo deve essere scirtto in *markdown*. Questo è un linguaggio di scrittura semplificato che permettere di formattare un testo senza la necessità di usare programmi come Word. Di seguito una serie esempi su come scrivere in markdown ed il risultato che si ottiene nell'articolo pubblicato.
+Ogni articolo deve essere scritto in *markdown*. Questo è un linguaggio di scrittura semplificato che permettere di formattare un testo senza la necessità di usare programmi come Word. Di seguito una serie esempi su come scrivere in markdown ed il risultato che si ottiene nell'articolo pubblicato.
 
 ### Testo in grassetto e corsivo
 

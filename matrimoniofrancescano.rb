@@ -206,7 +206,6 @@ class Blogdata
     @blog_previews    = ''
     @blog_posts       = ''
     @blog_images      = ''
-    @blog             = ''
 
     # config = File.read(@filename)
     # config.split("\n").each do |line|
@@ -219,11 +218,14 @@ class Blogdata
     @dump_previews= "#{@dump}/previews"
     @dump_posts   = "#{@dump}/published"
     @dump_images  = "#{@dump_posts}/images" 
+
     FileUtils::mkdir_p @dump unless Dir.exist?(@dump)
     FileUtils::mkdir_p @dump_drafts unless Dir.exist?(@dump_drafts) 
     FileUtils::mkdir_p @dump_previews unless Dir.exist?(@dump_previews) 
     FileUtils::mkdir_p @dump_posts unless Dir.exist?(@dump_posts)
     FileUtils::mkdir_p @dump_images unless Dir.exist?(@dump_images) 
+
+
       # end
       # if k =~ /blog/
         # .strip removes any extra space from the dir path
@@ -231,10 +233,13 @@ class Blogdata
     @blog_previews= "#{@blog}/previews"
     @blog_posts   = "#{@blog}/_posts"
     @blog_images  = "#{@blog}/images/posts"
+
     FileUtils::mkdir_p @blog unless Dir.exist?(@blog)
     FileUtils::mkdir_p @blog_previews unless Dir.exist?(@blog_previews)
     FileUtils::mkdir_p @blog_posts unless Dir.exist?(@blog_posts)
     FileUtils::mkdir_p @blog_images unless Dir.exist?(@blog_images)
+
+
       # end
     # end
   end
