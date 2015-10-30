@@ -21,3 +21,6 @@
   {% when '12' %}Dicembre
 {% endcase %}
 {{ thispage.date | date: "%Y" }}
+
+{% unless thispage.date %} Inserire una data!
+{% endunless %}
