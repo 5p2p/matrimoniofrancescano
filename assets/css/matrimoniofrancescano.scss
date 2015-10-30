@@ -171,7 +171,7 @@ body{
   }
   p a, li a {
     color: $Main;
-    font-size: $pg_size;
+    // font-size: $pg_size;
     border-bottom: 1px dashed $Main;
   }
   p a:hover, li a:hover {
@@ -576,8 +576,10 @@ p.a {
 
 
   .post p {
-    font-size: $pg_size_big;
+    font-size: $pg_size*1.1;
   }
+  .post > p:first-of-type{font-size: $h4_size*1.1;}
+
 
   .bg_size { font-size: $bg_size*$scale; line-height: 1.0;} // big text on big screens
 
