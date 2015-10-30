@@ -13,7 +13,7 @@
 <!-- for Facebook -->
 <meta property="og:title" content="{{page.title}}" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="{{page.url}}" />
+<meta property="og:url" content="{{site.url}}/{{page.url}}" />
 <meta property="og:description" content="{% if page.excerpt %}
 {{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}" />
 <meta  property="og:image" content="{% if page.image %}{{site.images}}/{{page.image}}{% else %}{{site.fb_img}}{% endif %}">
