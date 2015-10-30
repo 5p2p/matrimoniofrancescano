@@ -294,73 +294,14 @@ end
 
 myblog=Blogdata.new( idump, iblog )
 
-# exit
-
-# puts conf.blog, conf.blog_previews, conf.blog_posts, conf.blog_images
-# puts '-------'
-# puts conf.dump, conf.dump_drafts, conf.dump_previews, conf.dump_posts 
-
-# exit
-
-
-# config = File.read(configfile)
-# config.split("\n").each do |line|
-#   k,v=line.split(":")
-#   # puts k, v
-#   if k =~ /dump/
-#     # .strip removes any extra space from the dir path
-#     $dump_dir = v.strip
-#   end
-#   if k =~ /blog/
-#     # .strip removes any extra space from the dir path
-#     $blog_dir = v.strip
-#   end
-#   if k=~ /previews/
-#     dump_previews = v.strip
-#   end
-#   if k=~ /published/
-#     dump_posts = v.strip
-#   end
-# end
-
-# GLOBAL VARIABLES -----------------
-# $post_dir = $blog_dir + "/_posts/"
-# $prev_dir = $blog_dir + "/previews/"
-
-
-# --------------------
-# WARNING!!!
-# CHECK IF THOSE DIRECTORIES ACTUALLY EXIST!
-# --------------------
-# puts dump_dir, blog_dir, post_dir, prev_dir
-
-
-# -----------------------------------
-# COLLECT ALL DRAFTS
-# -----------------------------------
-# Dir.glob( conf.dump + "*.md").each do |draftname|
-# drafts = Dir[File.join(conf.dump, '**', '*.{md}')]
-
-# Find all md files in subdirectories excluding the ones in 
-# directories starting with a "_" character. Those are protected.
-# This can be used to store template md files.
-
-# Dir["#{conf.dump}/{[!_]**/*,*}.md"].each do |ii|
-
-#   draft=Draft.new(ii,conf)
-
-#   puts draft.basename
-#   puts draft.image
-
-# end
-
-# exit
 
 [ myblog.dump_previews, myblog.dump_drafts ].each do |cdir|
 
   Dir["#{cdir}/{[!_]**/*,*}.md"].each do |ii|
 
     puts '--------------------------------'
+
+    puts ii
 
     draft=Draft.new(ii,myblog)
     status = draft.status
