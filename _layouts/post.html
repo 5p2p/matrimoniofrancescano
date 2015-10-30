@@ -119,6 +119,7 @@ PREVIEWS
 
         <div class="postTitle"><a href="{{ post.url }}">{{ post.title }}</a></div>
         <div class="postStats">
+        <div class="postPath"><i class="fa fa-folder-open" style="margin-right: 0.1rem;"></i> {{post.path}}</div>
         <i class="fa fa-clock-o"></i>{% include dates_ita.html %}
             {% if post.tag %}
             <div class="tags">
@@ -128,7 +129,6 @@ PREVIEWS
             {% endfor %}
             </div>
             {% endif %}
-            <div class="postPath"><i class="fa fa-folder-open" style="margin-right: 0.1rem;"></i> {{post.path}}</div>
         </div>
 
 
