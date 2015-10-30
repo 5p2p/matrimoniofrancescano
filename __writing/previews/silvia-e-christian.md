@@ -1,7 +1,7 @@
 ---
 title: Silvia e Christian (trovare un titolXY)
 tag: testimonianze
-<!-- preview: ok -->
+preview: ok
 ---
 
 Ogni volta che conosciamo qualcuno e ci domanda di dove siamo, mio marito non perde occasione per ricordare che, benchè viviamo in provincia di Padova, io sono Piemontese: immancabilmente la gente ci chiede *"E dove vi siete conosciuti? Da te o da lei?"*. E la nostra risposta risuona inequivocabilmente all'unisono *"Ad Assisi*!"*
