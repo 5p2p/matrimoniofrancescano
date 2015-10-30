@@ -574,26 +574,10 @@ p.a {
 @media all and (min-width: 900px) {
 
 
-  // Typography
-  $scale   : 1.25;
-  $pg_size : 1.4rem;          // paragraph size
-  $sm_size : $pg_size/$scale;
-  $vs_size : $sm_size/$scale;
-  $h4_size : $pg_size*$scale;
-  $h3_size : $h4_size*$scale;
-  $h2_size : $h3_size*$scale;
-  $h1_size : $h2_size*$scale;
-  $bg_size : $h1_size*$scale;
+  p {
+    font-size: 1.4;
+  }
 
-  .vs_size { font-size: $vs_size; } // very small text
-  .sm_size { font-size: $sm_size; } // small text
-  .bg_size { font-size: $bg_size; } // big text
-  h4 { font-size: $h4_size; }
-  h3 { font-size: $h3_size; }
-  h2 { font-size: $h2_size; }
-  h1 { font-size: $h1_size; }
-
-  
   .bg_size { font-size: $bg_size*$scale; line-height: 1.0;} // big text on big screens
 
   #landing {
