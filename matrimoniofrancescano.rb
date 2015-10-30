@@ -239,7 +239,6 @@ class Blogdata
     FileUtils::mkdir_p @blog_posts unless Dir.exist?(@blog_posts)
     FileUtils::mkdir_p @blog_images unless Dir.exist?(@blog_images)
 
-
       # end
     # end
   end
