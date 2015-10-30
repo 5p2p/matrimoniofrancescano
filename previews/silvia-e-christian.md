@@ -20,6 +20,7 @@ Da quell'estate in poi ci organizzammo in modo da riuscire a vederci ogni fine s
 La Sua vicinanza si fece ancora più forte quando arrivammo al desiderio e quindi alla decisione di avvicinarci: uno dei due avrebbe dovuto trasferirsi. Fu una decisione difficile, sofferta, molto dura da affrontare e ancora oggi lo ricordiamo come uno dei periodi più difficili delle nostre vite: ma a farci andare avanti c'era la **promessa**, viva nei nostri cuori: 
 
 >Chiunque avrà lasciato case, o fratelli,o sorelle, o padre o madre o campi per il mio nome riceverà 100 volte tanto avrà in eredità la vita eterna.
+<cite>Mt19, 29</cite>
 
 Dopo un anno vissuto lontani, io lasciai il mio lavoro, la mia famiglia, i miei amici e mi trasferii. Avevamo compiuto un passo molto importante ma che era solo il precursore di un altro passo decisivo che volevamo compiere più di qualsiasi altra cosa: sposarci!
 Decisi per la nostra strada, nonostante i pareri negativi di molta gente intorno a noi (anche perchè nei mesi antecedenti il mio trasferimento Christian perse il lavoro, e quindi nessuno dei due poteva contare su uno stipendio) nell'autunno del 2011 facemmo un pellegrinaggio durante il quale, ascoltando lo Spirito Santo, decidemmo la nostra data di matrimonio: 14 aprile 2012. Sarebbe stata l'ottava di Pasqua (quindi ricordava il periodo pasquale nel quale ci eravamo conosciuti) nonchè Festa della Divina Misericordia.
