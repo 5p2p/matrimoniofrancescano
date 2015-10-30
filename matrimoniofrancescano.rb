@@ -301,7 +301,7 @@ myblog=Blogdata.new( idump, iblog )
 
     puts '--------------------------------'
 
-    puts caz+ii
+    puts 'caz'
 
     draft=Draft.new(ii,myblog)
     status = draft.status
