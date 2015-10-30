@@ -134,7 +134,7 @@ class Draft
     FileUtils.cp( filename, new_filename )
 
     new_filename = "#{config.dump_previews}/#{basename}"
-    FileUtils.mv( filename, new_filename ) unless filename == new_filename
+    # FileUtils.mv( filename, new_filename ) unless filename == new_filename
     # FileUtils.mv( filename, "#{config.dump_trash}/#{basename}__#{time.usec}")
 
     if image
