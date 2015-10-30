@@ -4,7 +4,7 @@ tag: testimonianze
 preview: ok
 ---
 
-Ogni volta che conosciamo qualcuno e ci domanda di dove siamo, mio marito non perde occasione per ricordare che, benchè viviamo in provincia di Padova, io sono Piemontese: immancabilmente la gente ci chiede *"E dove vi siete conosciuti? Da te o da lei?"*. E la nostra risposta risuona inequivocabilmente all'unisono *"Ad Assisi*!"*
+Ogni volta che conosciamo qualcuno e ci domanda di dove siamo, mio marito non perde occasione per ricordare che, benchè viviamo in provincia di Padova, io sono Piemontese: immancabilmente la gente ci chiede "*E dove vi siete conosciuti? Da te o da lei?*". E la nostra risposta risuona inequivocabilmente all'unisono "*Ad Assisi!*"
 
 La nostra storia parte proprio da là, da quella terra benedetta in cui San Francesco e Santa Chiara hanno posto le radici per una strada che ancora oggi siamo in tanti a percorrere. Luogo in cui tantissimi giovani, provenienti da ogni parte d'Italia, si incontrano e attratti dallo Spirito rispondono all'invito di assaporare lo stile francescano, scoprendo un modo di vivere totalmente nuovo e (nella società attuale) incomprensibile o meglio ancora, impesabile per i più. 
 Nei giorni del Santo Triduo del 2010 abbiamo vissuto insieme i percorsi proposti dai nostri cari frati minori e sorelle francescane e ci siamo così conosciuti: una simpatia, un'amicizia e uno scambio di numeri (strano lo so, ma "fare nuove conoscenze" è vivamente consigliato proprio dai frati!!) e al momento di separarci per tornare nelle nostre città, fiumi di lacrime e una strana sensazione nel cuore...
