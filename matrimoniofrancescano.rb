@@ -11,7 +11,7 @@
 # ===================
 
 iblog="/Users/ruvido/Dropbox/web/matrimoniofrancescano.it"
-idump="#{iblog}/writing"
+idump="#{iblog}/_writing"
 
 
 # ===================
