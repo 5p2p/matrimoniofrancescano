@@ -11,7 +11,7 @@
 # ===================
 
 iblog="/Users/ruvido/Dropbox/web/matrimoniofrancescano.it"
-idump="#{iblog}/_writing"
+idump="#{iblog}/__writing"
 
 
 # ===================
@@ -297,8 +297,6 @@ myblog=Blogdata.new( idump, iblog )
 
 [ myblog.dump_previews, myblog.dump_drafts ].each do |cdir|
 
-  puts cdir
-  
   Dir["#{cdir}/{[!_]**/*,*}.md"].each do |ii|
 
     puts '--------------------------------'

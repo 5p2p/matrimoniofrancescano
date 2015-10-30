@@ -1,27 +1,17 @@
 ---
-title: Silvia e Christian (trovare un titolX)
+title: Silvia e Christian (trovare un titolo)
 tag: testimonianze
 preview: ok
 ---
 
 Ogni volta che conosciamo qualcuno e ci domanda di dove siamo, mio marito non perde occasione per ricordare che, benchè viviamo in provincia di Padova, io sono Piemontese: immancabilmente la gente ci chiede *"E dove vi siete conosciuti? Da te o da lei?"*. E la nostra risposta risuona inequivocabilmente all'unisono *"Ad Assisi*!"*
 
-La nostra storia parte proprio da là, da quella terra benedetta in cui San Francesco e Santa Chiara hanno posto le radici per una strada che ancora oggi siamo in tanti a percorrere. Luogo in cui tantissimi giovani, provenienti da ogni parte d'Italia, si incontrano e attratti dallo Spirito rispondono all'invito di **assaporare lo stile francescano**, scoprendo un modo di vivere totalmente nuovo e (nella società attuale) incomprensibile o meglio ancora, impesabile per i più.
-
-Nei giorni del Santo Triduo del 2010 abbiamo vissuto insieme i percorsi proposti dai nostri cari frati minori e sorelle francescane e ci siamo così conosciuti: una simpatia, un'amicizia e uno scambio di numeri (strano lo so, ma *fare nuove conoscenze* è vivamente consigliato proprio dai frati!!) e al momento di separarci per tornare nelle nostre città, fiumi di lacrime e una strana sensazione nel cuore ...
-
-*"Abitiamo lontani (350 km di distanza), ci conosciamo appena, chi ce lo fa fare di continuare a scriverci? Probabilmente non ci rivedremo mai più, forse è meglio lasciar perdere..."* Questi i miei pensieri, finchè pochi giorni dopo essere tornati alle nostre vite, ricevetti una chiamata: 
-
-*"Cosa fai il prossimo fine settimana? Vengo a trovarti!"*
-
+La nostra storia parte proprio da là, da quella terra benedetta in cui San Francesco e Santa Chiara hanno posto le radici per una strada che ancora oggi siamo in tanti a percorrere. Luogo in cui tantissimi giovani, provenienti da ogni parte d'Italia, si incontrano e attratti dallo Spirito rispondono all'invito di assaporare lo stile francescano, scoprendo un modo di vivere totalmente nuovo e (nella società attuale) incomprensibile o meglio ancora, impesabile per i più. 
+Nei giorni del Santo Triduo del 2010 abbiamo vissuto insieme i percorsi proposti dai nostri cari frati minori e sorelle francescane e ci siamo così conosciuti: una simpatia, un'amicizia e uno scambio di numeri (strano lo so, ma "fare nuove conoscenze" è vivamente consigliato proprio dai frati!!) e al momento di separarci per tornare nelle nostre città, fiumi di lacrime e una strana sensazione nel cuore...
+"Abitiamo lontani (350 km di distanza), ci conosciamo appena, chi ce lo fa fare di  continuare a scriverci? Probabilmente non ci rivedremo mai più, forse è meglio lasciar perdere..." Questi i miei pensieri, finchè pochi giorni dopo essere tornati alle nostre vite, ricevetti una chiamata: <<Cosa fai il prossimo fine settimana? Vengo a trovarti!>>
 Trascorsi tre mesi di messaggi, mail, interminabili telefonate serali, viaggi ogni weekend sul binario Padova-Assisi-Casale Monferrato, abbiamo deciso di camminare insieme seriamente e ci siamo fidanzati.
-
-Da quell'estate in poi ci organizzammo in modo da riuscire a vederci ogni fine settimana (diventando, nostro malgrado, sponsor ufficiali di Trenitalia!), mettendo da parte altri impegni e ogni cosa non fosse prioritario al camminare insieme, forti che, nonostante le difficoltà fisiche che una relazione a distanza comporta, dalla nostra parte c'era *"il pezzo grosso"*, che **ci sosteneva in questo santo percorso e che non ci avrebbe lasciati soli!**
-
-La Sua vicinanza si fece ancora più forte quando arrivammo al desiderio e quindi alla decisione di avvicinarci: uno dei due avrebbe dovuto trasferirsi. Fu una decisione difficile, sofferta, molto dura da affrontare e ancora oggi lo ricordiamo come uno dei periodi più difficili delle nostre vite: ma a farci andare avanti c'era la promessa, viva nei nostri cuori:
-
->Chiunque avrà lasciato case, o fratelli,o sorelle, o padre o madre o campi per il mio nome riceverà 100 volte tanto avrà in eredità la vita eterna
-
+Da quell'estate in poi ci organizzammo in modo da riuscire a vederci ogni fine settimana (diventando, nostro malgrado, sponsor ufficiali Trenitalia!), mettendo da parte altri impegni e ogni cosa non fosse prioritario al camminare insieme, forti che, nonostante le difficoltà fisiche che una relazione a distanza comporta, dalla nostra parte c'era "il pezzo grosso", che ci sosteneva in questo santo percorso e che non ci avrebbe lasciati soli!
+La Sua vicinanza si fece ancora più forte quando arrivammo al desiderio e quindi alla decisione di avvicinarci: uno dei due avrebbe dovuto trasferirsi. Fu una decisione difficile, sofferta, molto dura da affrontare e ancora oggi lo ricordiamo come uno dei periodi più difficili delle nostre vite: ma a farci andare avanti c'era la promessa, viva nei nostri cuori "chiunque avrà lasciato case, o fratelli,o sorelle, o padre o madre o campi per il mio nome riceverà 100 volte tanto avrà in eredità la vita eterna".
 Dopo un anno vissuto lontani, io lasciai il mio lavoro, la mia famiglia, i miei amici e mi trasferii. Avevamo compiuto un passo molto importante ma che era solo il precursore di un altro passo decisivo che volevamo compiere più di qualsiasi altra cosa: sposarci!
 Decisi per la nostra strada, nonostante i pareri negativi di molta gente intorno a noi (anche perchè nei mesi antecedenti il mio trasferimento Christian perse il lavoro, e quindi nessuno dei due poteva contare su uno stipendio) nell'autunno del 2011 facemmo un pellegrinaggio durante il quale, ascoltando lo Spirito Santo, decidemmo la nostra data di matrimonio: 14 aprile 2012. Sarebbe stata l'ottava di Pasqua (quindi ricordava il periodo pasquale nel quale ci eravamo conosciuti) nonchè Festa della Divina Misericordia.
 Il tempo per organizzare un matrimonio tradizionale era poco ma soprattutto eravamo senza soldi, senza una casa e senza un lavoro: eppure sapevamo che quello sarebbe stato il giorno che il Signore aveva pensato per noi fin dall'eternità e che Lui, ancora più di noi, desiderava vederci felici e sposi in Cristo!
