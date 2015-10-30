@@ -294,11 +294,10 @@ end
 
 myblog=Blogdata.new( idump, iblog )
 
-    puts 'caz'
 
 [ myblog.dump_previews, myblog.dump_drafts ].each do |cdir|
 
-  Dir["#{cdir}/{[!_]**/*,*}.md"].each do |ii|
+  Dir["#{cdir}/{[!_templates]**/*,*}.md"].each do |ii|
 
     puts '--------------------------------'
 
