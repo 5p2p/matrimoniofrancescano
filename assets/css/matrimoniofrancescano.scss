@@ -51,7 +51,7 @@ $h3_size : $h4_size*$scale;
 $h2_size : $h3_size*$scale;
 $h1_size : $h2_size*$scale;
 $bg_size : $h1_size*$scale;
-$pg_size_big : 1.4rem;      // responsive on big screens
+$pg_size_big : 1.3rem;      // responsive on big screens
 
 .vs_size { font-size: $vs_size; } // very small text
 .sm_size { font-size: $sm_size; } // small text
