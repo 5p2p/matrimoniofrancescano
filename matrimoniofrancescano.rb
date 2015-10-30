@@ -294,6 +294,7 @@ end
 
 myblog=Blogdata.new( idump, iblog )
 
+    puts 'caz'
 
 [ myblog.dump_previews, myblog.dump_drafts ].each do |cdir|
 
@@ -301,7 +302,6 @@ myblog=Blogdata.new( idump, iblog )
 
     puts '--------------------------------'
 
-    puts 'caz'
 
     draft=Draft.new(ii,myblog)
     status = draft.status
