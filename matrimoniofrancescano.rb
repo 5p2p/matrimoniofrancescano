@@ -57,11 +57,12 @@ class Draft
       head.split("\n").each do |line|
         k,v=line.split(":")
     # ---------------------------------
-        if k =~ /preview/ and v =~ /ok/
+        # if k =~ /preview/ and v =~ /ok/
+        if k == 'preview' and v =~ /ok/
           @preview_field=true
         end
     # ---------------------------------
-        if k =~ /publish/ and v =~ /ok/
+        if k == 'publish' and v =~ /ok/
           @publish_field=true
         end
     # ---------------------------------
