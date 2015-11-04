@@ -1,7 +1,7 @@
 ---
 title: La grande guerra
 image: la-grande-guerra.png
-preview: ok
+previews: ok
 ---
 
 “Il matrimonio è anche un lavoro di tutti i giorni, potrei dire un lavoro artigianale, un lavoro di oreficeria, perché il marito ha il compito di fare più donna la moglie e la moglie ha il compito di fare più uomo il marito. Crescere anche in umanità, come uomo e come donna.” 
