@@ -56,10 +56,10 @@ class Draft
       head = splitext[1]
       head.split("\n").each do |line|
         k,v=line.split(":")
+        puts k,v
     # ---------------------------------
         # if k =~ /preview/ and v =~ /ok/
         if k == 'preview' and v =~ /ok/
-          puts 'CAZ'
           @preview_field=true
         end
     # ---------------------------------
