@@ -50,7 +50,7 @@ class Draft
     text = File.read(filename)
 
     # ---- Read header ------------------
-    if text.split("\n")[0] == "---"
+    if text.split("\r\n")[0] == "---"
       @header = true
       splitext = text.split("---")
       head = splitext[1]
