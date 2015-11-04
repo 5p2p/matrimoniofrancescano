@@ -143,10 +143,18 @@ class Draft
 
       old_image = "#{File.dirname(filename)}/#{image}"
       new_image = "#{config.dump_previews}/#{image}"
+      # new_image = "#{config.blog_images}/#{image}"
+
 
       if File.file?(old_image) and old_image != new_image
         FileUtils.mv( old_image, new_image ) 
       end
+
+      # copy the image in a public (accessible) place
+      public_image = "#{config.blog_previews}/#{image}"
+      FileUtils.cp( new_image, public_image ) 
+
+
 
     end 
 
@@ -176,15 +184,9 @@ class Draft
       old_image = "#{File.dirname(filename)}/#{image}"
       new_image = "#{config.blog_images}/#{image}"
       FileUtils.cp( old_image, new_image )
-      new_image = "#{config.dump_images}/#{image}"
-      FileUtils.mv( old_image, new_image ) unless old_image == new_image
 
-
-
-      # if File.file?(old_image) and old_image != new_image
-      #   FileUtils.mv( old_image, new_image ) 
-      #   puts "image mossa"
-      # end
+      public_image = "#{config.blog_previews}/#{image}"
+      FileUtils.rm( public_image )
 
     end 
 
