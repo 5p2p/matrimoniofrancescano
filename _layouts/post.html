@@ -35,7 +35,16 @@
 
 <style type="text/css">
 {% if page.image %}
+
+
+{% if page.preview %}
+.splash {background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{site.previews}}/{{page.image}}');}
+{% endif %}
+
+{% if page.publish %}
 .splash {background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{site.images}}/{{page.image}}');}
+{% endif %}
+
 .postHead, .postHead h1, .postAuthor {color: white;}
 {% else %}
 .splash {

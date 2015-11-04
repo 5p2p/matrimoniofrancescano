@@ -70,6 +70,7 @@ google_analytics: UA-69446168-1
 # Jekyll stuff
 # ---------------------------------------------------------
 images: /images/posts
+previews: /previews
 permalink: /:categories/:title/
 # permalink: pretty
 markdown: kramdown
