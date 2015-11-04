@@ -1,6 +1,7 @@
 ---
 title: La grande guerra
-image: la-grande-guerra.png
+<!-- image: la-grande-guerra.png -->
+image: prova.jpg
 preview: ok
 ---
 
