@@ -59,6 +59,7 @@ class Draft
     # ---------------------------------
         # if k =~ /preview/ and v =~ /ok/
         if k == 'preview' and v =~ /ok/
+          puts 'CAZ'
           @preview_field=true
         end
     # ---------------------------------
