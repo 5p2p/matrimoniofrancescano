@@ -2,9 +2,18 @@
 # ===================
 # TODO
 # ===================
-# - it'd be cool if this var would be set automatically in a configuration process (rake)
+# - it'd be cool if "iblog" could be set automatically in a configuration process (rake)
+# => better than that, having a git clone of the thing as "bare" blog. Using rake
+#    to initialize the whole thing.
 # - make a gem
+# => so that updates to the code are done in a central repo rather than in a per/folder basis.
 # - automatic create a slug from title
+# - create a list of scheduled posts in the -preview page-
+# - make a _today.lock file to be used as a trigger to push the repo (functional for the scheduled posts)
+# - simplify the publishing:
+# => one folder for draft posts
+# => one folder fot images
+# => edit link for pull requests in the preview phase
 
 # ===================
 # CONFIGURATION
