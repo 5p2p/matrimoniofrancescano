@@ -4,7 +4,7 @@ tag: testimonianze
 image: abbiamo-creduto-ad-una-promessa.png
 slug: abbiamo-creduto-ad-una-promessa
 date: 4-12-2015
-preview: ok
+publish: ok
 ---
 
 Ogni volta che conosciamo qualcuno e ci domanda di dove siamo, mio marito non perde occasione per ricordare che, benchè viviamo in provincia di Padova, io sono Piemontese: immancabilmente la gente ci chiede "*E dove vi siete conosciuti? Da te o da lei?*". E la nostra risposta risuona inequivocabilmente all'unisono "*Ad Assisi!*".
