@@ -1,5 +1,6 @@
 ---
 title: carmine
+ciao: ok
 ---
 Quando si parla di matrimonio francescano ( in realtà potremmo chiamarlo semplicemente matrimonio cristiano), si aprono scenari fantasiosi...Gli sposi si faranno prestare i vestiti o indosseranno un sacco di iuta?Avranno i fiori e la musica?Faranno le bomboniere?Mangeremo oppure ognuno dovrà portare qualcosa da casa?
 
