@@ -43,6 +43,7 @@ if 1
 
   # date = DateTime.now
   date = Time.now
+  puts date
   today=date.strftime("%d-%m-%Y")
   # Dir.chdir iblog
   f = File.open("#{iblog}/today", "w+")
