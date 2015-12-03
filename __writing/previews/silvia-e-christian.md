@@ -1,6 +1,9 @@
 ---
 title: Abbiamo creduto ad una promessa
 tag: testimonianze
+image: abbiamo-creduto-ad-una-promessa.png
+slug: abbiamo-creduto-ad-una-promessa
+date: 4-12-2015
 preview: ok
 ---
 
