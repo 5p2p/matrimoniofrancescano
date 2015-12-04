@@ -51,4 +51,9 @@ if 1
 end
 
 # sleep 1
-myblog.push
+# myblog.push
+
+Dir.chdir iblog
+`git add --all .`
+`git commit -a -m 'new code'`
+`git push`
