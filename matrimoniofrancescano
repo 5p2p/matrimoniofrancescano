@@ -47,6 +47,7 @@ if 1
   # Dir.chdir iblog
   f = File.open("#{iblog}/today", "w+")
   f.puts today
+  f.close
 
 end
 
