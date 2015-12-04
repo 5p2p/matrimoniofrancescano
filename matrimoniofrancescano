@@ -56,5 +56,5 @@ end
 
 Dir.chdir iblog
 `git add --all .`
-`git commit -a -m 'new code'`
+`git commit -a -m 'commit'`
 `git push`
