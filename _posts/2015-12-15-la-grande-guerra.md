@@ -1,8 +1,8 @@
 ---
 title: La grande guerra
 image: la-grande-guerra.png
-<!-- publish: ok -->
-preview: ok
+<!-- preview: ok -->
+publish: ok
 date: 15-12-2015
 slug: la-grande-guerra
 ---
