@@ -5,7 +5,7 @@ fb-image: semplicemente-cristiano.png
 publish: ok
 date: 19-1-2016
 ---
-AQuando si parla di matrimonio francescano (in realtà potremmo chiamarlo semplicemente matrimonio cristiano), si aprono scenari fantasiosi... Gli sposi si faranno prestare i vestiti o indosseranno un sacco di iuta? Avranno i fiori e la musica? Faranno le bomboniere? Mangeremo oppure ognuno dovrà portare qualcosa da casa?
+Quando si parla di matrimonio francescano (in realtà potremmo chiamarlo semplicemente matrimonio cristiano), si aprono scenari fantasiosi... Gli sposi si faranno prestare i vestiti o indosseranno un sacco di iuta? Avranno i fiori e la musica? Faranno le bomboniere? Mangeremo oppure ognuno dovrà portare qualcosa da casa?
 
 Un matrimonio francescano (o cristiano) non è niente di tutto questo; non deve essere necessariamente celebrato ad Assisi e neppure essere a costo zero!
 
