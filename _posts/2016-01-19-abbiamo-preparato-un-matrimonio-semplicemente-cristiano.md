@@ -1,6 +1,7 @@
 ---
 title: Abbiamo preparato un matrimonio semplicemente cristiano!
 image: semplicemente-cristiano.jpg
+fb-image: semplicemente-cristiano.png
 publish: ok
 date: 19-1-2016
 ---

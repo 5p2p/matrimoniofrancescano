@@ -16,7 +16,16 @@
 <meta property="og:url" content="{{site.url}}/{{page.url}}" />
 <meta property="og:description" content="{% if page.excerpt %}
 {{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}" />
-<meta  property="og:image" content="{% if page.image %}{{site.url}}/{{site.images}}/{{page.image}}{% else %}{{site.url}}/{{site.fb_img}}{% endif %}">
+
+{% if page.image %}
+  {% assign fbimg = site.url | append: site.images | append: "/" | append: page.image %}
+{% elsif page.fb-image%}
+  {% assign fbimg = site.url | append: site.fb_images | append: "/" | append: page.fb-image %}
+{% else %}
+  {% assign fbimg = site.url | append: site.fb_default %}
+{% endif %}
+
+<meta  property="og:image" content="{{fbimg}}">
 
 
 <!-- for Twitter -->

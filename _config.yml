@@ -11,7 +11,7 @@ url: http://matrimoniofrancescano.it
 logo:    /images/favicon/logo-128.jpg
 favicon: /images/favicon/logo-128.jpg
 header:  /images/header/header.png
-fb_img:  /images/posts/il-matrimonio-francescano.jpg
+fb_default:  /images/posts/il-matrimonio-francescano.jpg
 
 # ---------------------------------------------------------
 # Authors
@@ -70,6 +70,7 @@ google_analytics: UA-69446168-1
 # Jekyll stuff
 # ---------------------------------------------------------
 images: /images/posts
+fb_images: /images/fb-images
 previews: /previews
 permalink: /:categories/:title/
 # permalink: pretty
