@@ -17,10 +17,10 @@
 <meta property="og:description" content="{% if page.excerpt %}
 {{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}" />
 
-{% if page.image %}
-  {% assign fbimg = site.url | append: site.images | append: "/" | append: page.image %}
-{% elsif page.fb-image%}
+{% if page.fb-image%}
   {% assign fbimg = site.url | append: site.fb_images | append: "/" | append: page.fb-image %}
+{% elsif page.image %}
+  {% assign fbimg = site.url | append: site.images | append: "/" | append: page.image %}
 {% else %}
   {% assign fbimg = site.url | append: site.fb_default %}
 {% endif %}
