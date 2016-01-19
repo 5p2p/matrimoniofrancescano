@@ -29,7 +29,5 @@ Il celebrante, i lettori, i testimoni... ognuno di loro è stato scelto non a ca
 
 Carmine e Anita
 
----
-
-*Questo articolo è apparso la prima volta sul blog di Carmine e Anita [Cento Volte Tanto](http://centovoltetanto.blogspot.de/2014/09/il-matrimonio-francescanoo-se-preferite.html).*
+*NOTA: Questo articolo è apparso la prima volta sul blog di Carmine e Anita [Cento Volte Tanto](http://centovoltetanto.blogspot.de/2014/09/il-matrimonio-francescanoo-se-preferite.html).*
 
