@@ -4,6 +4,7 @@ author: guest
 image: provvidenza-e-sapere-che-non-sei-solo.jpg
 preview: ok
 tags: [provvidenza, cammino]
+date: 2-3-2016
 ---
 
 Molte volte ci si chiede cosa sia la Provvidenza: alcuni confidano in questa, altri ci si aggrappano, altri la vedono come qualcosa da *esaltati* o una scusa per aspettare a braccia incrociate che tutto si risolva nella propria vita… Per i nostri limiti umani siamo sempre un po’ diffidenti o troppo razionali, o al contrario, ci lasciamo trasportare da entusiasmi. Da quando ci siamo conosciuti cinque anni fa io e Marco, mio sposo da dicembre 2014, abbiamo cominciato a capire meglio che cosa sia la Provvidenza: c’è sempre stata, siamo stati noi a sottovalutarla o a non coglierla in molti momenti.
