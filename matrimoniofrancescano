@@ -40,7 +40,7 @@ myblog=Blogdata.new( idump, iblog )
     end    
 
   end
-  puts '--------------------------------'
+  # puts '--------------------------------'
 end
 
 if 1
