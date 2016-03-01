@@ -18,7 +18,6 @@ myblog=Blogdata.new( idump, iblog )
 
   Dir["#{cdir}/{[!_]**/*,*}.md"].each do |ii|
 
-    puts '--------------------------------'
 
 
     draft=Draft.new(ii,myblog)
@@ -26,10 +25,12 @@ myblog=Blogdata.new( idump, iblog )
 
     case status
     when "publish"
+      puts '--------------------------------'
       puts draft.basename, draft.filename, draft.image, status
       draft.to_posts
       puts "file published!"
     when "preview"
+      puts '--------------------------------'
       puts draft.basename, draft.filename, draft.image, status
       draft.missing
       draft.to_previews
