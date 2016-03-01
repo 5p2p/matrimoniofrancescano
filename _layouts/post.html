@@ -188,7 +188,9 @@ POST & PAGE TYPE
 </section>
 
 <div class="post row">
-{% include alert.html %}
+
+{% if site.alert == "ok"}{% include alert.html %}{% endif %}
+
 </div>
 
 <div class="post row">
