@@ -31,7 +31,7 @@ myblog=Blogdata.new( idump, iblog )
       puts "file published!"
     when "preview"
       puts '--------------------------------'
-      puts draft.basename, draft.title, draft.image, status
+      puts draft.basename, draft.title, draft.slug, draft.image, status
       draft.missing
       draft.to_previews
       # puts "file sent to previews, want the address?"
