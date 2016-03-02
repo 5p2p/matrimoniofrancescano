@@ -2,6 +2,7 @@
 title: Provvidenza è sapere che non sei solo
 author: guest
 image: provvidenza-e-sapere-che-non-sei-solo.jpg
+fb-image: provvidenza-e-sapere-che-non-sei-solo.png
 publish: ok
 tags: [provvidenza, cammino]
 date: 2-3-2016
