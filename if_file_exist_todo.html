@@ -1,0 +1,9 @@
+
+THIS SHOULD BE USED TO CHECK IF THE FACEBOOK IMAGE EXIST
+
+
+{% for static_file in site.static_files %}
+    {% if static_file.path == '/favicon.ico' %}
+        {% assign favicon = true %}
+    {% endif %}
+{% endfor %}
